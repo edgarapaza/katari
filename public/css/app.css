@@ -1,77 +1,184 @@
-/*
-Error: File to import not found or unreadable: util/util.
-        on line 63 of scss/_settings.scss
-        from line 3 of scss/app.scss
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
 
-58: @include foundation-float-classes;
-59: @include foundation-flex-classes;
-60: @include foundation-visibility-classes;
-61: // @include foundation-prototype-classes;
-62: 
-63: // Motion UI
-64: @include motion-ui-transitions;
-65: @include motion-ui-animations;
-66: 
-67: body{
-68:     background: #000;
+html {
+  font-size: 60%;
+  overflow-x: hidden;
+}
 
-Backtrace:
-scss/_settings.scss:63
-scss/app.scss:3
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-/var/lib/gems/3.0.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:25:in `load'
-/usr/local/bin/sass:25:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: util/util.\A         on line 63 of scss/_settings.scss\A         from line 3 of scss/app.scss\A \A 58: @include foundation-float-classes;\A 59: @include foundation-flex-classes;\A 60: @include foundation-visibility-classes;\A 61: // @include foundation-prototype-classes;\A 62: \A 63: // Motion UI\A 64: @include motion-ui-transitions;\A 65: @include motion-ui-animations;\A 66: \A 67: body{\A 68:     background: #000;"; }
+body {
+  background-color: #081b29;
+  color: #ededed;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+.header__logo {
+  font-size: 2.5rem;
+  color: #ededed;
+  font-weight: 500;
+  margin-left: 3.5rem;
+}
+.header__logo img {
+  width: 20rem;
+  filter: invert(1) sepia(0) hue-rotate(20deg) saturate(1000%);
+  transition: 0.3s;
+}
+.header__logo img:hover {
+  filter: invert(0.5) sepia(0) hue-rotate(20deg) saturate(1000%);
+}
+.header__nav a {
+  font-size: 1.7rem;
+  color: #ededed;
+  font-weight: 500;
+  margin-left: 1.5rem;
+  transition: 0.3s;
+}
+.header__nav a:hover, .header__nav a.active {
+  color: #00abf8;
+}
+.header #menu-icon {
+  font-size: 3.6rem;
+  color: #ededed;
+  cursor: pointer;
+  display: none;
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.inicio {
+  display: flex;
+  align-items: center;
+  padding: 0 9%;
+}
+.inicio__content {
+  max-width: 80rem;
+}
+.inicio__content h1 {
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.inicio__content .text-animation {
+  position: relative;
+  width: 48rem;
+}
+.inicio__content .text-animation h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 0.7px #00abf8;
+}
+.inicio__content p {
+  font-size: 1.6rem;
+  margin: 2rem 0 4rem;
+}
+.inicio__content .btn-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 34.5rem;
+  height: 5rem;
+}
+.inicio__content .btn-box .btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 100%;
+  background-color: #00abf8;
+  border: 0.2rem solid #00abf8;
+  border-radius: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  color: #081b29;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.inicio__content .btn-box .btn:nth-child(2) {
+  background: transparent;
+  color: #00abf8;
+}
+.inicio__content .btn-box .btn:nth-child(2):hover {
+  color: #081b29;
+}
+.inicio__content .btn-box .btn:nth-child(2)::before {
+  background: #00abf8;
+}
+.inicio__content .btn-box .btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #081b29;
+  z-index: -1;
+  transition: 0.3s;
+}
+.inicio__content .btn-box .btn:hover {
+  color: #00abf8;
+}
+.inicio__content .btn-box .btn:hover::before {
+  width: 100%;
+}
+.inicio__social {
+  position: absolute;
+  bottom: 4rem;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+.inicio__social a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 0.2rem solid #00abf8;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #00abf8;
+  z-index: 1;
+  overflow: hidden;
+}
+.inicio__social a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #00abf8;
+  z-index: -1;
+  transition: 0.5s;
+}
+.inicio__social a:hover {
+  color: #081b29;
+}
+.inicio__social a:hover::before {
+  width: 100%;
+}
+
+/*# sourceMappingURL=app.css.map */
