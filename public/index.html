@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="css/app.css">
   <!-- Iconos de Box-icons  -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -28,46 +28,63 @@
 
   <div class="container">
     <!-- ENCABEZADO -->
-    <div class="cabecera">
+    <div class="grid-x grid-padding-x">
       
-  <header class="header">
-    <div class="header__logo">
-      <a href="#"> 
-        <!-- Katari  -->
-        <img src="img/logonegro.png" alt="Logo">
-      </a>
-    </div>
-    <div class="bx bx-menu" id="menu-icon">
+      <header class="header">
+        <div class="header__logo">
+          <a href="#"> 
+            <!-- Katari  -->
+            <img src="img/logonegro.png" alt="Logo">
+          </a>
+        </div>
+        <div class="bx bx-menu" id="menu-icon">
 
-    </div>
-    <nav class="header__nav" id="mobile-menu">
-      <ul class="menu">
-        <li><a href="#" class="active">Inicio</a></li>
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+        </div>
+        <nav class="header__nav" id="mobile-menu">
+          <ul class="menu dropdown" data-dropdown-menu data-responsive-menu="drilldown medium-accordion">
+            <li><a href="#" class="active">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li>
+              <a href="#">Servicios</a>
+              <ul class="vertical menu">
+                <li><a href="#">Item 3A</a></li>
+                <li><a href="#">Item 3B</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
   
-  <section class="inicio" id="inicio">
-    <div class="inicio__content">
-      <h1>Somos <span>KAtari Development</span></h1>
-      <div class="text-animation">
-        <h3>Desarrolladore de software</h3>
-      </div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sunt voluptatibus qui dolorum autem quasi beatae provident accusantium adipisci alias optio corrupti dolor nemo, eveniet aliquid deserunt iusto? Culpa, fuga.</p>
-      <div class="btn-box">
-        <a href="#" class="btn">Empieza</a>
-        <a href="#" class="btn">Loasd</a>
-      </div>
-    </div>
-    <div class="inicio__social">
-      <a href="#"><i class="bx bxl-facebook"></i></a>
-      <a href="#"><i class="bx bxl-twitter"></i></a>
-      <a href="#"><i class="bx bxl-linkedin"></i></a>
-    </div>
-  </section>
+      <section class="inicio" id="inicio">
+        <div class="inicio__content">
+          <div class="inicio__content__box">
+            <h1>Somos <span>KAtari Development</span></h1>
+            <div class="text-animation">
+              <h3>Desarrolladore de software</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sunt voluptatibus qui dolorum autem quasi beatae provident accusantium adipisci alias optio corrupti dolor nemo, eveniet aliquid deserunt iusto? Culpa, fuga.</p>
+            <div class="btn-box">
+              <a href="#" class="btn">Empieza</a>
+              <a href="#" class="btn">Loasd</a>
+            </div>
+        
+          </div>
+          <div class="inicio__content__box">
+            <div class="box__img">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRerMBXZiI9ifYI4HWtBBWzVAJIGVu_NEYFN6SgkKE2cDshMevCossPI3E5qytJ4MDkLNo&usqp=CAU" alt="imagen">
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="inicio__social">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </section>
     </div>
     <!-- PROYECTOS Y SERVICIOS -->
     <div class="proyecto"></div>
@@ -79,7 +96,13 @@
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+
   <script src="js/main.js"></script>
+
 
 
 </body>
