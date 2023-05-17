@@ -19,18 +19,23 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 2rem 9%;
+  padding: 3rem 9%;
   background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
+  transition: 0.3s;
+}
+.header.sticky {
+  background: #112e42;
+  padding: 1rem 9%;
 }
 .header__logo {
   font-size: 2.5rem;
   color: #ededed;
   font-weight: 500;
-  margin-left: 3.5rem;
+  margin-left: 4.5rem;
 }
 .header__logo img {
   width: 20rem;
@@ -41,10 +46,10 @@ body {
   filter: invert(0.5) sepia(0) hue-rotate(20deg) saturate(1000%);
 }
 .header__nav a {
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: #ededed;
   font-weight: 500;
-  margin-left: 1.5rem;
+  margin-left: 3.5rem;
   transition: 0.3s;
 }
 .header__nav a:hover, .header__nav a.active {
@@ -57,18 +62,96 @@ body {
   display: none;
 }
 
-section {
-  min-height: 100vh;
-  padding: 10rem 9% 2rem;
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+  html .inicio__content {
+    width: 100%;
+  }
 }
-
+@media (max-width: 991px) {
+  .header {
+    padding: 2rem 4%;
+  }
+  section {
+    padding: 10rem 4% 2rem;
+  }
+  .inicio {
+    padding: 0 4%;
+  }
+  .inicio__content {
+    flex-direction: column;
+  }
+  .inicio__content__box:nth-child(1) {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+  }
+  .inicio__content__box:nth-child(2) {
+    display: none;
+  }
+  .inicio__social {
+    left: auto !important;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    background: #081b29;
+  }
+  .header #menu-icon {
+    display: block;
+  }
+  .header__nav {
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 100%;
+    padding: 1rem 4%;
+    background: #081b29;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    transition: 0.25s ease;
+    transition-delay: 0.25%;
+  }
+  .header__nav.active {
+    left: 0;
+  }
+  .header__nav .menu a {
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
+}
 .inicio {
   display: flex;
   align-items: center;
-  padding: 0 9%;
+  padding: 0 5%;
+  min-height: 100vh;
+  justify-content: center;
+  flex-direction: column;
 }
 .inicio__content {
-  max-width: 80rem;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.inicio__content__box {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.inicio__content__box:nth-child(2) {
+  align-items: center;
+}
+.inicio__content__box .box__img {
+  width: 80%;
+}
+.inicio__content__box .box__img img {
+  width: 90%;
 }
 .inicio__content h1 {
   font-size: 5.6rem;
@@ -84,6 +167,24 @@ section {
   font-weight: 700;
   color: transparent;
   -webkit-text-stroke: 0.7px #00abf8;
+  background-image: linear-gradient(#00abf8, #00abf8);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: -50rem 0;
+  animation: inicioBgText 6s linear infinite;
+  animation-delay: 2s;
+}
+.inicio__content .text-animation h3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-right: 2px solid #00abf8;
+  z-index: -1;
+  animation: inicioCursorText 6s linear infinite;
+  animation-delay: 2s;
 }
 .inicio__content p {
   font-size: 1.6rem;
@@ -143,10 +244,11 @@ section {
 }
 .inicio__social {
   position: absolute;
-  bottom: 4rem;
+  bottom: 6rem;
   width: 170px;
   display: flex;
   justify-content: space-between;
+  left: 9.8%;
 }
 .inicio__social a {
   position: relative;
@@ -180,5 +282,150 @@ section {
 .inicio__social a:hover::before {
   width: 100%;
 }
+
+@keyframes inicioBgText {
+  0%, 10%, 100% {
+    background-position: -50rem 0;
+  }
+  65%, 85% {
+    background-position: 0 0;
+  }
+}
+@keyframes inicioCursorText {
+  0%, 10%, 100% {
+    width: 0;
+  }
+  65%, 78%, 85% {
+    width: 100%;
+    max-width: 90%;
+    opacity: 1;
+  }
+  75%, 21% {
+    opacity: 0;
+  }
+}
+@media (max-width: 520px) {
+  html {
+    font-size: 50%;
+  }
+  html .inicio__content h1 {
+    display: flex;
+    flex-direction: column;
+  }
+  html .inicio__social {
+    width: 160px;
+  }
+  html .inicio__social a {
+    width: 38px;
+    height: 38px;
+  }
+}
+@media (max-width: 462px) {
+  .inicio__content__box h1 {
+    font-size: 5.2rem;
+  }
+  .inicio__content__box .text-animation {
+    width: 30rem;
+  }
+}
+@media (max-width: 371px) {
+  .inicio {
+    justify-content: center;
+  }
+  .inicio__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .inicio__content__box h1 {
+    font-size: 5rem;
+  }
+}
+.translucent-form-overlay {
+  max-width: 500px;
+  width: 100%;
+  background-color: rgba(54, 54, 54, 0.8);
+  padding: 20px;
+  color: #fff;
+}
+.translucent-form-overlay .columns.row {
+  display: block;
+}
+.translucent-form-overlay h3, .translucent-form-overlay label {
+  color: #fff;
+}
+.translucent-form-overlay input, .translucent-form-overlay select {
+  color: #5a5a5a;
+}
+.translucent-form-overlay input::placeholder {
+  color: #5a5a5a;
+}
+
+/* 
+// Global styles
+@include foundation-global-styles;
+@include foundation-forms;
+@include foundation-typography;
+
+// Grids (choose one)
+@include foundation-xy-grid-classes;
+// @include foundation-grid;
+// @include foundation-flex-grid;
+
+// Generic components
+@include foundation-button;
+@include foundation-button-group;
+@include foundation-close-button;
+@include foundation-label;
+@include foundation-progress-bar;
+@include foundation-slider;
+@include foundation-range-input;
+@include foundation-switch;
+@include foundation-table;
+// Basic components
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-dropdown;
+@include foundation-pagination;
+@include foundation-tooltip;
+
+// Containers
+@include foundation-accordion;
+@include foundation-media-object;
+@include foundation-orbit;
+@include foundation-responsive-embed;
+@include foundation-tabs;
+@include foundation-thumbnail;
+// Menu-based containers
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-accordion-menu;
+@include foundation-drilldown-menu;
+@include foundation-dropdown-menu;
+
+// Layout components
+@include foundation-off-canvas;
+@include foundation-reveal;
+@include foundation-sticky;
+@include foundation-title-bar;
+@include foundation-top-bar;
+
+// Helpers
+@include foundation-float-classes;
+@include foundation-flex-classes;
+@include foundation-visibility-classes;
+// @include foundation-prototype-classes;
+
+// Motion UI
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+body{
+    background: #000;
+}
+*/
 
 /*# sourceMappingURL=app.css.map */
