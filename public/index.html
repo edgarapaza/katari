@@ -16,147 +16,132 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" type="text/css" href="css/foundation.css">
   <link rel="stylesheet" type="text/css" href="css/app.css">
+  <link rel="stylesheet" type="text/css" href="css/foundation.css">
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js" integrity="sha512-6DC1eE3AWg1bgitkoaRM1lhY98PxbMIbhgYCGV107aZlyzzvaWCW1nJW2vDuYQm06hXrW0As6OGKcIaAVWnHJw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- Iconos de Box-icons  -->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-  <meta name="theme-color" content="#fafafa">
+  <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
 </head>
 
 <body>
-
-  <div class="grid-container">
-    <!-- ENCABEZADO -->
-<<<<<<< HEAD
-      <div class="grid-x grid-padding-x">
-        
-          <header class="header">
-            <div class="header__logo">
+  <div class="hero">
+       <!-- NAVBAR -->
+      <div class="top-bar">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">
               <a href="#"> 
-                <!-- Katari  -->
-                <img src="img/logonegro.png" alt="Logo">
+                <img src="img/katari.png" alt="Logo" class="img" width="100px" >
               </a>
-            </div>
-            <div class="bx bx-menu" id="menu-icon">
-
-            </div>
-            <nav class="header__nav" id="mobile-menu">
-              <ul class="menu">
-                <li><a href="#" class="active">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
-              </ul>
-            </nav>
-          </header>
-          
-          <section class="inicio" id="inicio">
-            <div class="inicio__content">
-              <h1>Somos <span>KAtari Development</span></h1>
-              <div class="text-animation">
-                <h3>Desarrolladore de software</h3>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sunt voluptatibus qui dolorum autem quasi beatae provident accusantium adipisci alias optio corrupti dolor nemo, eveniet aliquid deserunt iusto? Culpa, fuga.</p>
-              <div class="btn-box">
-                <a href="#" class="btn">Empieza</a>
-                <a href="#" class="btn">Loasd</a>
-              </div>
-            </div>
-            <div class="inicio__social">
-              <a href="#"><i class="bx bxl-facebook"></i></a>
-              <a href="#"><i class="bx bxl-twitter"></i></a>
-              <a href="#"><i class="bx bxl-linkedin"></i></a>
-            </div>
-          </section>
-      </div>
-      <!-- PROYECTOS Y SERVICIOS -->
-      <div class="grid-x grid-padding-x">
-          
-      </div>
-      <!-- PUBLICIDAD -->
-      <div class="grid-x grid-padding-x"></div>
-      <!-- FOOTER -->
-      <div class="grid-x grid-padding-x"></div>
-=======
-    <div class="grid-x grid-padding-x">
-      
-      <header class="header">
-        <div class="header__logo">
-          <a href="#"> 
-            <!-- Katari  -->
-            <img src="img/logonegro.png" alt="Logo">
-          </a>
-        </div>
-        <div class="bx bx-menu" id="menu-icon">
-
-        </div>
-        <nav class="header__nav" id="mobile-menu">
-          <ul class="menu dropdown" data-dropdown-menu data-responsive-menu="drilldown medium-accordion">
+            </li>
             <li><a href="#" class="active">Inicio</a></li>
             <li><a href="#">Nosotros</a></li>
-            <li>
-              <a href="#">Servicios</a>
-              <ul class="vertical menu">
-                <li><a href="#">Item 3A</a></li>
-                <li><a href="#">Item 3B</a></li>
-              </ul>
+            <li><a href="#">Servicios</a>
+                  <ul class="vertical menu">
+                    <li><a href="#">Item 3A</a></li>
+                    <li><a href="#">Item 3B</a></li>
+                  </ul>
             </li>
             <li><a href="contact.html">Contacto</a></li>
           </ul>
-        </nav>
-      </header>
-  
-      <section class="inicio" id="inicio">
-        <div class="inicio__content">
-          <div class="inicio__content__box">
-            <h1>Somos <span>KAtari Development</span></h1>
-            <div class="text-animation">
-              <h3>Desarrolladore de software</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sunt voluptatibus qui dolorum autem quasi beatae provident accusantium adipisci alias optio corrupti dolor nemo, eveniet aliquid deserunt iusto? Culpa, fuga.</p>
-            <div class="btn-box">
-              <a href="#" class="btn">Empieza</a>
-              <a href="#" class="btn">Loasd</a>
-            </div>
-        
-          </div>
-          <div class="inicio__content__box">
-            <div class="box__img">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRerMBXZiI9ifYI4HWtBBWzVAJIGVu_NEYFN6SgkKE2cDshMevCossPI3E5qytJ4MDkLNo&usqp=CAU" alt="imagen">
-
-            </div>
-          </div>
-
         </div>
-
-        <div class="inicio__social">
-          <a href="#"><i class="bx bxl-facebook"></i></a>
-          <a href="#"><i class="bx bxl-twitter"></i></a>
-          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li><input type="search" placeholder="Search"></li>
+            <li><button type="button" class="button">Search</button></li>
+          </ul>
         </div>
-      </section>
-    </div>
-    <!-- PROYECTOS Y SERVICIOS -->
-    <div class="proyecto"></div>
-    <!-- PUBLICIDAD -->
-    <div class="publicidad"></div>
-    <!-- FOOTER -->
-    <div class="footer"></div>
->>>>>>> bcc1450bec2c70cd1c538c5d342f2657d4600c40
+      </div>
+      <!-- END NAVBAR -->
+      <div class="grid-x grid-padding-x">
+        <div class="cell medium-6 ">
+          <img class="thumbnail" src="img/cableado-estructurado.jpg" width="300px">
+        </div>
+        <div class="cell medium-6">
+          <h2>Servicio de Cableado de Redes</h2>
+          <p>Solicita tu cotizacion</p>
+          <button type="submit" class="button success">Cotizar ahora</button>
+        </div>
+      </div>
   </div>
+  
+  <hr>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/vendor/jquery.js"></script>
-  <script src="js/vendor/what-input.js"></script>
-  <script src="js/vendor/foundation.js"></script>
-  <script src="js/app.js"></script>
+  <div class="grid-container">
+    <div class="grid-x">
+      <h1 class="">NUESTROS SERVICIOS</h1>
+    </div>
 
-  <script src="js/main.js"></script>
+    <div class="grid-x">
+      <div class="cell medium-3 large-4">
+        <div class="card" style="width: 300px;">
+          <div class="card-divider">
+            Desarrollo de software para Archivos
+          </div>
+          <img src="img/software.png">
+          <div class="card-section">
+            <h4>Ver todos los Software</h4>
+            <p>Organizado por categorias</p>
+            <a href="#">Ver aqui</a>
+          </div>
+        </div>
+      </div>
+      <div class="cell medium-3 large-4">
+        <div class="card" style="width: 300px;">
+          <div class="card-divider">
+            Analisis Estadistico - Bigdata - Machine Learning
+          </div>
+          <img src="img/dataanalitic.png">
+          <div class="card-section">
+            <h4>Analisis de Datos</h4>
+            <p>Ver resultados de trabajos anteriores</p>
+            <a href="#">Cotizar Aqui</a>
+          </div>
+        </div>
+      </div>
+      <div class="cell medium-3 large-4">
+        <div class="card" style="width: 300px;">
+          <div class="card-divider">
+            Coiching Profesional - Desarrollo y Crecimiento
+          </div>
+          <img src="img/coaching.png">
+          <div class="card-section">
+            <h4>Crecimiento profesional </h4>
+            <p>Charlas de Coiching Gratuitas</p>
+            <a href="#">Solicitar aqui</a>
+          </div>
+        </div>
+      </div>
+    
+    </div>
 
+    <hr>
 
+    <div class="media-object">
+      <div class="media-object-section">
+        <div class="thumbnail">
+          <img src="img/edgar.png">
+        </div>
+      </div>
+      <div class="media-object-section">
+        <h4>Que es Katari</h4>
+        <p>KATARI es un nuevo emprendimiento, despues de DIGI ARCH en el que se trabajo por 4 años y despues fue vendido, con Katari queremos 
+          ofrecer una serie de servicios de forma mas especializada.  Katari tiene varias divisiones, una de ellas es: <strong>KATARI SOFTWARE</strong>, la cual 
+      se dedica a elaborar software en difirentes lenguajes de programación. </p>
+      <p>La segunda es <strong>KATARI ANALITICS</strong> que tiene que ver con el analisis de datos y la tercera es <strong>KATARI SERVICIOS</strong> que cuenta con servicios y colaboracion de diferentes profesioanles.</p>
+      <p>Por el momento lo dirige el Ing. Edgar Apaza Choque, de profesion Ingeniero Estadístico e Informático, con una maestria en Informatica y con cursos concluidos en DATA ANALITICS </p>
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
 
 </body>
 

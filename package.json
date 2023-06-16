@@ -2,12 +2,13 @@
   "name": "katari",
   "version": "1.0.0",
   "description": "Basic template for a new Foundation for Sites project.",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
-    "start": "gulp",
-    "build": "gulp sass"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "node-sass --watch scss/app.scss  public/css/app.css"
   },
-  "author": "Foundation Yetinauts <contact@get.foundation> (https://get.foundation)",
+  "author": "Edgar Apaza",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/foundation/foundation-sites/issues",
@@ -32,11 +33,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/foundation/foundation-sites-template.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass",
-    "sass:watch": "sass --watch scss/app.scss  public/css/app.css"
   },
   "private": true,
   "browserslist": [
