@@ -1,0 +1,17 @@
+{
+  "name": "antares2",
+  "version": "1.0.0",
+  "description": "Software para la Represa Gallito Ciego",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jhoana",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^4.3.0",
+    "foundation-sites": "^6.8.1",
+    "modernizr": "^3.12.0",
+    "normalize.css": "^8.0.1"
+  }
+}

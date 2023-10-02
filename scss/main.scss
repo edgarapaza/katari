@@ -1,0 +1,124 @@
+$verde: #00D4B2;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 0 auto;
+}
+
+p{
+		font-size: 1.5em;
+	}
+
+.hero{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg");
+	background-size: cover;
+	height: 700px;
+	background-position: left;
+}
+.img-logo{
+	margin-top: 40px;
+  	margin-left: 40px;
+  	width: 140px;
+	text-align: left;
+	cursor: pointer;
+}
+#check{
+	display: none;
+}
+.checkbtn{
+	font-size: 1.2em;
+	color: #fff;
+	float: right;
+	line-height: 60px;
+	margin-right: 40px;
+	cursor: pointer;
+}
+.header{
+	width: 100%;
+	/*background-color: rgba(255, 255, 255, 0.2);*/
+	position: relative;
+	top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	height: 80px;
+	nav{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		height: 60px;
+		width: 100%;
+	}
+	ul{
+		text-align: center;
+		li{
+			list-style: none;
+			display: inline-block;
+			a{
+				display: block;
+				text-decoration: none;
+				color: #fff;
+				font-size: 1em;
+				font-family: 'ubuntu', sans-serif;
+				letter-spacing: 2px;
+				padding: 10px;
+				transition: all ease 0.5s;
+
+			:hover{
+					background-color: #3F71E4;
+					border-radius: 30px;
+				}
+			}
+		}
+	}
+}
+
+.activate{
+	background-color: #1979A7;
+	border-radius: 30px;
+}
+
+.main{
+	padding: 60px;
+	color: #F7F5F5;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	h1{
+		font-size: 3.5em;
+	}
+	p{
+		font-size: 2.5em;
+		color: $verde;
+	}
+}
+/*  SECCION DEL CUERPO 1 SECCION*/
+.cuerpo1{
+	background-color: #F1EDED;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1224px;
+	padding: 60px;
+	p{
+		margin: 40px;
+		text-align: center;
+	}
+}
+
+.card-section{
+	h4{
+		color: $verde;
+		font-weight: bold;
+		text-align: center;
+	}
+}

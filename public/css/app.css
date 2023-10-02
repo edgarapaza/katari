@@ -1,0 +1,7 @@
+
+.navuno{
+  top: 150px;
+  position: relative;
+  border: 1px solid red;
+  z-index: 1000;
+}
