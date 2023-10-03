@@ -1,8 +1,11 @@
 $verde: #00D4B2;
+$gris: #F2F2F2;
+$negro: #333333;
+
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+
 }
 body{
 	margin: 0 auto;
@@ -10,7 +13,7 @@ body{
 
 p{
 		font-size: 1.5em;
-	}
+}
 
 .hero{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg");
@@ -36,21 +39,10 @@ p{
 	margin-right: 40px;
 	cursor: pointer;
 }
-.header{
-	width: 100%;
-	/*background-color: rgba(255, 255, 255, 0.2);*/
-	position: relative;
-	top: 10px;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	align-items: center;
-	height: 80px;
-	nav{
+nav{
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
-		height: 60px;
 		width: 100%;
 	}
 	ul{
@@ -61,7 +53,7 @@ p{
 			a{
 				display: block;
 				text-decoration: none;
-				color: #fff;
+				color: #00929E;
 				font-size: 1em;
 				font-family: 'ubuntu', sans-serif;
 				letter-spacing: 2px;
@@ -75,11 +67,20 @@ p{
 			}
 		}
 	}
+.header{
+	width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 180px;
+
 }
 
 .activate{
 	background-color: #1979A7;
 	border-radius: 30px;
+	color: #000;
 }
 
 .main{
@@ -122,3 +123,31 @@ p{
 		text-align: center;
 	}
 }
+
+.foot-er{
+	background-color: $negro;
+}
+
+.titulo-footer{
+
+	h3{
+		padding: 10px;
+		font-size: 1.5em;
+		color: $gris;
+	}
+	.foot{
+		color: $verde;
+		font-size: 1em;
+	}
+	.rss{
+		font-size: 2em;
+		padding: 10px;
+		text-align: center;
+		color: $gris;
+	}
+	.copyright{
+		color: white;
+		font-size: 0.9em;
+	}
+}
+

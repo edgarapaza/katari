@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -40,49 +39,48 @@ p {
   cursor: pointer;
 }
 
-.header {
-  width: 100%;
-  /*background-color: rgba(255, 255, 255, 0.2);*/
-  position: relative;
-  top: 10px;
+nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: center;
-  height: 80px;
-}
-.header nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  height: 60px;
   width: 100%;
 }
-.header ul {
+
+ul {
   text-align: center;
 }
-.header ul li {
+ul li {
   list-style: none;
   display: inline-block;
 }
-.header ul li a {
+ul li a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: #00929E;
   font-size: 1em;
   font-family: "ubuntu", sans-serif;
   letter-spacing: 2px;
   padding: 10px;
   transition: all ease 0.5s;
 }
-.header ul li a :hover {
+ul li a:hover {
   background-color: #3F71E4;
   border-radius: 30px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 180px;
 }
 
 .activate {
   background-color: #1979A7;
   border-radius: 30px;
+  color: #000;
 }
 
 .main {
@@ -123,6 +121,30 @@ p {
   color: #00D4B2;
   font-weight: bold;
   text-align: center;
+}
+
+.foot-er {
+  background-color: #333333;
+}
+
+.titulo-footer h3 {
+  padding: 10px;
+  font-size: 1.5em;
+  color: #F2F2F2;
+}
+.titulo-footer .foot {
+  color: #00D4B2;
+  font-size: 1em;
+}
+.titulo-footer .rss {
+  font-size: 2em;
+  padding: 10px;
+  text-align: center;
+  color: #F2F2F2;
+}
+.titulo-footer .copyright {
+  color: white;
+  font-size: 0.9em;
 }
 
 /*# sourceMappingURL=main.css.map */

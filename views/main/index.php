@@ -19,11 +19,9 @@
   </head>
   <body>
 
-  	<div class="hero">
-
-	  	<div class="header">
+  	<div class="header">
 	  		<div>
-	  			<img src="<?php echo constant('URL');?>public/img/katariwhite.png" alt="Logo Katari" class="img-logo">
+	  			<img src="<?php echo constant('URL');?>public/img/katari.png" alt="Logo Katari" class="img-logo">
 	  		</div>
 	  		<nav>
 	  			<input type="checkbox" id="check">
@@ -45,6 +43,10 @@
 	  		</nav>
 
 	  	</div>
+
+  	<div class="hero">
+
+
 
 	  	<div class="main">
 	  		<div>
@@ -82,8 +84,8 @@
   			<h1>Nuestros servicios</h1>
   		</div>
   		<div class="grid-x">
-		  <div class="cell small-12 large-4">
-		  	<div class="card" style="width: 300px;">
+		  <div class="cell small-12 medium-6 large-4">
+		  	<div class="card">
 			  <img class="thumbnail" src="https://images.pexels.com/photos/5793953/pexels-photo-5793953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo of Uranus.">
 			  <div class="card-section">
 			    <h4>Desarrollo de software</h4>
@@ -92,8 +94,8 @@
 			</div>
 
 		  </div>
-		  <div class="cell small-12 large-4">
-		  	<div class="card" style="width: 300px;">
+		  <div class="cell small-12 medium-6 large-4">
+		  	<div class="card">
 			  <img class="thumbnail" src="https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo of Uranus.">
 			  <div class="card-section">
 			    <h4>Redes y Cableado estructurado</h4>
@@ -101,8 +103,8 @@
 			  </div>
 			</div>
 		  </div>
-		  <div class="cell small-12 large-4">
-		  	<div class="card" style="width: 300px;">
+		  <div class="cell small-12 medium-6 large-4">
+		  	<div class="card">
 			  <img class="thumbnail" src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo of Uranus.">
 			  <div class="card-section">
 			    <h4>Analisis Estadistico</h4>
@@ -113,8 +115,8 @@
 		</div>
 
 		<div class="grid-x">
-			<div class="cell small-12 large-4">
-				<div class="card" style="width: 300px;">
+			<div class="cell small-12 medium-6 large-4">
+				<div class="card">
 				  <img class="thumbnail" src="https://images.pexels.com/photos/6334780/pexels-photo-6334780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo of Uranus.">
 				  <div class="card-section">
 				    <h4>Especialista en Archivos</h4>
@@ -122,8 +124,8 @@
 				  </div>
 				</div>
 			</div>
-			<div class="cell small-12 large-4">
-				<div class="card" style="width: 300px;">
+			<div class="cell small-12 medium-6 large-4">
+				<div class="card">
 				  <img class="thumbnail" src="https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo of Uranus.">
 				  <div class="card-section">
 				    <h4>Estudio de Mercado</h4>
@@ -131,7 +133,7 @@
 				  </div>
 				</div>
 			</div>
-			<div class="cell small-12 large-4">
+			<div class="cell small-12 medium-6 large-4">
 
 			</div>
 		</div>
@@ -143,70 +145,114 @@
     	<div class="row text-center">
     		<h2>¿Por qué trabajar con nosotros?</h2>
     	</div>
+
     	<div class="grid-x grid-margin-x">
-		    <div class="cell small-4">
-		    	<div class="card" style="width: 300px;">
-				  <img src="<?php echo constant('URL');?>public/img/reloj.png">
-				  <div class="card-section">
-				    <h4>RAPIDO</h4>
-				    <p>Nuestra experiencia nos permite culminar proyectos en el tiempo requerido con máxima calidad.</p>
-				  </div>
-				</div>
+		    <div class="cell small-12 medium-6 large-4">
+		    	<div class="card">
+					  <img src="<?php echo constant('URL');?>public/img/reloj.png">
+					  <div class="card-section">
+					    <h4>RAPIDO</h4>
+					    <p>Nuestra experiencia nos permite culminar proyectos en el tiempo requerido con máxima calidad.</p>
+					  </div>
+					</div>
 		    </div>
-		    <div class="cell small-4">
-		    	<div class="cell small-4">
-		    	<div class="card" style="width: 330px;">
-				  <img src="<?php echo constant('URL');?>public/img/databases.png">
-				  <div class="card-section">
-				    <h4>ACCESIBLE</h4>
-				    <p>Brindamos precios justos y accesibñes, dependiendo de nuestros planes web. Compara nuestros precios</p>
-				  </div>
-				</div>
+		    <div class="cell small-12 medium-6 large-4">
+		    	<div class="card">
+					  <img src="<?php echo constant('URL');?>public/img/databases.png">
+					  <div class="card-section">
+					    <h4>ACCESIBLE</h4>
+					    <p>Brindamos precios justos y accesibñes, dependiendo de nuestros planes web. Compara nuestros precios</p>
+					  </div>
+					</div>
 		    </div>
+		    <div class="cell small-12 medium-6 large-4">
+		    	<div class="card">
+					  <img src="<?php echo constant('URL');?>public/img/profesional.png">
+					  <div class="card-section">
+					    <h4>PROFESIONALES</h4>
+					    <p>Contamos con personal 100% profesional, capacitado y calificado, expertos en Diseño Web, profesionales.</p>
+					  </div>
+					</div>
 		    </div>
-		    <div class="cell small-4">
-		    	<div class="cell small-4">
-		    	<div class="card" style="width: 300px;">
-				  <img src="<?php echo constant('URL');?>public/img/profesional.png">
-				  <div class="card-section">
-				    <h4>PROFESIONALES</h4>
-				    <p>Contamos con personal 100% profesional, capacitado y calificado, expertos en Diseño Web, profesionales.</p>
-				  </div>
-				</div>
-		    </div>
-		    </div>
-		</div>
+			</div>
     </div>
 
     <div class="grid-container">
     	<div class="row text-center">
     		<h1>NUESTRO PORTAFOLIO</h1>
     	</div>
-    	<div class="grid-x">
-		  <div class="cell small-12 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-		  <div class="cell small-12 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-		  <div class="cell small-12 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-		  <div class="cell small-12 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
+    	<div class="grid-x text-center">
+		  <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
+		  <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
+		  <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
+		  <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
 		</div>
-		<div class="grid-x">
-		  <div class="cell small-12 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-		  <div class="cell small-12 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-		  <div class="cell small-12 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-		  <div class="cell small-12 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
+		<div class="grid-x text-center">
+		  <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
+		  <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
+		  <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
+		  <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
 		</div>
     </div>
 
+<div class="grid-container-fluid foot-er">
+	<div class="grid-container">
+		<div class="grid-x grid-padding-y">
+			<div class="cell small-12 medium-4 large-3 titulo-footer">
+				<h3>Herramientas y servicios</h3>
+				<ol>
+					<li><a href="#" class="foot">Todos los productos</a></li>
+					<li><a href="#" class="foot">Catalogo de productos</a></li>
+					<li><a href="#" class="foot">Costos por servicios</a></li>
+					<li><a href="#" class="foot">Listado de tiendas</a></li>
+					<li><a href="#" class="foot">Ofertas</a></li>
+				</ol>
+			</div>
+			<div class="cell small-12 medium-4 large-3 titulo-footer">
+				<h3>Empresa</h3>
+				<ol>
+					<li><a href="#" class="foot">Blog</a></li>
+					<li><a href="#" class="foot">API</a></li>
+					<li><a href="#" class="foot">Bolsa de Trabajo</a></li>
+					<li><a href="#" class="foot">Mision y Vision</a></li>
+					<li><a href="#" class="foot">Anunciate con nosotros</a></li>
+				</ol>
+			</div>
+			<div class="cell small-12 medium-4 large-3 titulo-footer">
+				<h3>Siganos en Redes Sociales</h3>
+				<a href="#" class="rss"><i class="fa-brands fa-facebook"></i></a>
+				<a href="#" class="rss"><i class="fa-brands fa-tiktok"></i></a>
+				<a href="#" class="rss"><i class="fa-brands fa-linkedin"></i></a>
+				<a href="#" class="rss"><i class="fa-brands fa-youtube"></i></a>
+
+			</div>
+			<div class="cell small-12 medium-4 large-3 titulo-footer">
+				<h3>Katari - 2023</h3>
+				<ol>
+					<li><a href="#" class="foot">Terminos y condiciones</a></li>
+					<li><a href="#" class="foot">Privacidad</a></li>
+				</ol>
+
+				<small class="copyright">
+					<span class=""> ©
+	          <script>
+	            document.write(new Date().getFullYear())
+	          </script> KATARI SOFTWARE
+	        </span>
+				Copyrigth  Katari. Inc.</small>
+				<small class="copyright">Todos los derechos reservados.</small>
+				<br>
+				<a href="#">Sitemap</a>
+			</div>
+		</div>
 
 
-    <footer class="grid-x footer">
-      <div class="grid-x">
-        <span class="copyright"> ©
-          <script>
-            document.write(new Date().getFullYear())
-          </script> KATARI SOFTWARE
-        </span>
-      </div>
-    </footer>
+
+	</div>
+</div>
+
+
+
 
       <script src="<?php echo constant('URL');?>public/js/core/jquery.min.js"></script>
       <script src="<?php echo constant('URL');?>public/js/foundation.min.js"></script>
