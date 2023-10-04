@@ -195,6 +195,27 @@
 		</div>
     </div>
 
+	<div class="grid-container  zeta">
+		<div class="row text-center">
+			<h1>NUESTRO PORTAFOLIO</h1>
+		</div>
+		<div class="grid-zeta">
+			<div class="box">
+				<span style="--i:1;"><a href=""><img src="<?php echo constant('URL');?>public/img/image1.jpg" alt=""></a></span>
+				<span style="--i:2;"><a href=""><img src="<?php echo constant('URL');?>public/img/image2.jpg" alt=""></a></span>
+				<span style="--i:3;"><a href=""><img src="<?php echo constant('URL');?>public/img/image3.jpg" alt=""></a></span>
+				<span style="--i:4;"><a href=""><img src="<?php echo constant('URL');?>public/img/image4.jpg" alt=""></a></span>
+				<span style="--i:5;"><a href=""><img src="<?php echo constant('URL');?>public/img/image5.jpg" alt=""></a></span>
+				<span style="--i:6;"><a href=""><img src="<?php echo constant('URL');?>public/img/image6.jpg" alt=""></a></span>
+				<span style="--i:7;"><a href=""><img src="<?php echo constant('URL');?>public/img/image7.jpg" alt=""></a></span>
+				<span style="--i:8;"><a href=""><img src="<?php echo constant('URL');?>public/img/image8.jpg" alt=""></a></span>
+			</div>
+		</div>
+	</div>
+
+
+
+
 <div class="grid-container-fluid foot-er">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-y">
