@@ -231,6 +231,11 @@ p {
   background: url("http://localhost/katari/public/img/img05.jpg") no-repeat center top/cover;
 }
 
+.separacion {
+  border-bottom: 1px solid #474747;
+  margin-bottom: 30px;
+}
+
 /* add media queries  */
 @media (max-width: 450px) {
   .slide .content {

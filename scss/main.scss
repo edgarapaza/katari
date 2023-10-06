@@ -46,7 +46,6 @@ p{
 						font-family: 'roboto', sans-serif;
 						font-size: 1.1em;
 						font-weight: bold;
-
 					}
 				}
 			}
@@ -249,6 +248,11 @@ p{
 }
 .slide:nth-child(5){
   background: url('http://localhost/katari/public/img/img05.jpg') no-repeat center top/cover;
+}
+
+.separacion{
+	border-bottom: 1px solid $negro;
+	margin-bottom: 30px;
 }
 
 /* add media queries  */
