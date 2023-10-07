@@ -158,7 +158,8 @@
     	<div class="grid-x grid-margin-x">
 		    <div class="cell small-12 medium-6 large-4">
 		    	<div class="card">
-					  <img src="<?php echo constant('URL');?>public/img/reloj.png">
+					  <!--<img src="<?php echo constant('URL');?>public/img/reloj.png">-->
+					  <i class="fa-solid nosotros fa-gauge-simple-high"></i>
 					  <div class="card-section">
 					    <h4>RAPIDO</h4>
 					    <p>Nuestra experiencia nos permite culminar proyectos en el tiempo requerido con máxima calidad.</p>
@@ -167,7 +168,8 @@
 		    </div>
 		    <div class="cell small-12 medium-6 large-4">
 		    	<div class="card">
-					  <img src="<?php echo constant('URL');?>public/img/databases.png">
+					  <!--<img src="<?php echo constant('URL');?>public/img/databases.png">-->
+					  <i class="fa-solid nosotros fa-comments-dollar"></i>
 					  <div class="card-section">
 					    <h4>ACCESIBLE</h4>
 					    <p>Brindamos precios justos y accesibñes, dependiendo de nuestros planes web. Compara nuestros precios</p>
@@ -176,7 +178,8 @@
 		    </div>
 		    <div class="cell small-12 medium-6 large-4">
 		    	<div class="card">
-					  <img src="<?php echo constant('URL');?>public/img/profesional.png">
+					  <!--<img src="<?php echo constant('URL');?>public/img/profesional.png">-->
+					  <i class="fa-solid nosotros fa-people-group"></i>
 					  <div class="card-section">
 					    <h4>PROFESIONALES</h4>
 					    <p>Contamos con personal 100% profesional, capacitado y calificado, expertos en Diseño Web, profesionales.</p>

@@ -12,7 +12,7 @@ $azul: #141E46;
 	padding: 0;
   /*font-family: 'PT Sans', sans-serif;*/
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
 }
 body{
 	margin: 0 auto;
@@ -234,14 +234,14 @@ p{
 }
 
 /* background images */
-.slide:first-child{
-  background: url('http://localhost/katari/public/img/img01.jpg') no-repeat center center/cover;
+.slide:first-child {
+  background: url("http://localhost/katari/public/img/archivo.png") no-repeat center center/cover;
 }
-.slide:nth-child(2){
-  background: url('http://localhost/katari/public/img/img02.jpg') no-repeat center top/cover;
+.slide:nth-child(2) {
+  background: url("http://localhost/katari/public/img/ensamblaje.png") no-repeat center top/cover;
 }
-.slide:nth-child(3){
-  background: url('http://localhost/katari/public/img/img03.jpg') no-repeat center top/cover;
+.slide:nth-child(3) {
+  background: url("http://localhost/katari/public/img/Estadisticas.png") no-repeat center top/cover;
 }
 .slide:nth-child(4){
   background: url('http://localhost/katari/public/img/img04.jpg') no-repeat center top/cover;
