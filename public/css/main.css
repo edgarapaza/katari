@@ -457,7 +457,7 @@ video{
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  /lo que arriba centra la animacion, pero aun se sobresale de su contenedor/
+  /*lo que arriba centra la animacion, pero aun se sobresale de su contenedor*/
 
   position: relative;
   width: 200px;
