@@ -386,11 +386,11 @@ video{
   border-radius: 16px;
 }
 
-.articles article a {
+/* .articles article a {
   display: inline-flex;
   color: var(--primary);
   text-decoration: none;
-}
+} */
 
 
 .articles article h2 {
@@ -717,10 +717,7 @@ font-weight: 700;
     stroke: var(--white);
 }
 
-
-
 /*CARD perfil de clientes satisfechos*/
-
 
 :root {
   --background4: #e7a2a2;
@@ -814,3 +811,116 @@ font-weight: 700;
   transition: 1.2s;
   transform: rotateY(360deg);
 } */
+
+
+/*BOTONES ZETA PARA PAGINA CATALOGO-FALTA MIGRAR TODO A SASS Y CORREGIR MUCHAS COSAS*/
+
+
+.buttonz {
+  margin-left: 15%;
+  margin-top: 8%;
+  border: 0px solid;
+  outline: 2px solid;
+  color: rgb(227, 76, 76);
+  outline-color: rgb(228, 60, 60);
+  outline-offset: 0px;
+  text-shadow: none;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  max-width: 160px; 
+  width: 100%; 
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  transition: all 550ms cubic-bezier(
+      .36,.63,.5,.73
+  );
+}
+
+.buttonz:hover {
+  border: 2px solid var(--accent);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  color: var(--accent);
+}
+
+/*ACORDEON PREGUNTAS SOBRE LOS PRODUCTOS Y MAS-ZETA-PAGINA CATALOGO*/
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 2em;
+}
+
+details {
+	font-size: 1rem;
+	margin: 0 auto;
+	width: 100%;
+	background: #F6FAFF;
+	border-radius: 8px;
+	position: relative;
+	max-width: 600px;
+  border: 1px solid #C3DEFF;
+  transition: all 0.3s ease-in-out;
+}
+
+details:hover {
+  border: 1px solid #A4A1FF;
+}
+
+
+summary {
+  user-select: none;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  list-style: none;
+  padding: 1em;
+  align-items: center;
+}
+
+summary:hover .faq-title {
+  opacity: 1;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:focus {
+  outline: none;
+}
+
+summary:hover .expand-icon {
+  opacity: 1;
+}
+
+.faq-title {
+  color: #1C2035;
+  width: 90%;
+  opacity: 0.65;
+  transition: all 250ms ease-in-out;
+}
+
+.faq-content {
+  color: #303651;
+  padding: 0.2em 1em 1em 1em;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.expand-icon {
+  opacity: 0.65;
+}
+
+.expand-icon {
+  pointer-events: none;
+  position: absolute;
+  right: 1em;
+  transition: all 150ms ease-out;
+}
