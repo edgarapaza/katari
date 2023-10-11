@@ -255,3 +255,17 @@ p {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+/* agregando borde ala imagen del cliente = jhojan */
+.borde-redondo {
+  border-radius: 50%;
+  border: 2px solid #3dded1;
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+}
