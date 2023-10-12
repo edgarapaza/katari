@@ -1,6 +1,6 @@
 <?php
 
-class Contacto extends Controller
+class Clientes extends Controller
 {
 
   function __construct()
@@ -10,6 +10,6 @@ class Contacto extends Controller
 
   function render()
   {
-    $this->view->Render('contacto/index');
+    $this->view->Render('clientes/index');
   }
 }

@@ -7,40 +7,39 @@ class App
   {
     #echo "<p>Nueva APP</p>";
 
-    $url = $_GET['url'];
-    $url = rtrim($url, '/');
+    @$url = $_GET['url'];
+    @$url = rtrim($url, '/');
     $url = explode('/', $url);
 
     if (empty($url[0])) {
 
-        $archivoController = "controller/main.php";
-        require_once $archivoController;
-        $controller = new main;
-        $controller->loadModel('main');
-        $controller->render();
-        return false;
+      $archivoController = "controller/main.php";
+      require_once $archivoController;
+      $controller = new main;
+      $controller->loadModel('main');
+      $controller->render();
+      return false;
     }
 
-      #echo "con parametros";
+    #echo "con parametros";
     $archivoController = "controller/" . $url[0] . ".php";
 
-    if (file_exists($archivoController))
-    {
-        #echo "Si existe";
-        require_once $archivoController;
-        $controller = new $url[0];
-        $controller->loadModel($url[0]);
+    if (file_exists($archivoController)) {
+      #echo "Si existe";
+      require_once $archivoController;
+      $controller = new $url[0];
+      $controller->loadModel($url[0]);
 
-        if (isset($url[1])) {
-          $controller->{$url[1]}();
-        } else {
-          $controller->render();
-        }
-    } else {
-        #echo "no existe";
-        require "controller/error.php";
-        $controller = new ErrorGeneral();
+      if (isset($url[1])) {
+        $controller->{$url[1]}();
+      } else {
         $controller->render();
+      }
+    } else {
+      #echo "no existe";
+      require "controller/error.php";
+      $controller = new ErrorGeneral();
+      $controller->render();
     }
   }
 }
