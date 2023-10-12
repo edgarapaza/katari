@@ -255,3 +255,672 @@ p {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+
+/*ZETA pagina productos y servicios*/
+
+/*SMOKE ANIMATION*/
+.zeta-smoke{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.zeta-smoke .h1-smoke {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1rem;
+  color: #f5f5f5;
+  /* Estilos específicos para el h1 dentro de .zeta-smoke */
+  text-transform: uppercase;
+  font-size: 4em; /* Cambia el tamaño de fuente a 2em, por ejemplo */
+}
+.zeta-smoke .h1-smoke .span1{
+  /* Estilos específicos para el h1 dentro de .zeta-smoke */
+  text-transform: uppercase;
+  font-size: 2em; /* Cambia el tamaño de fuente a 2em, por ejemplo */
+  display: inline-block;
+  animation: animate 1s  ease-in-out;
+}
+
+video{
+  object-fit: cover;
+}
+
+.section-smoke{
+  background:#000 ;
+}
+
+
+@keyframes animate{
+  0%{
+      opacity: 0%;
+      transform: rotateY(90deg);
+      filter: blur(10px);
+  }
+  100%{
+      opacity: 1;
+      transform: rotateY(0deg);
+      filter: blur(0px);
+  }
+}
+.zeta-smoke .h1-smoke .span1:nth-child(1)
+{
+  animation-delay: 1.6s;
+}
+.zeta-smoke .h1-smoke .span1:nth-child(2)
+{
+  animation-delay: 2.5s;  
+}
+.zeta-smoke .h1-smoke .span1:nth-child(3)
+{
+  animation-delay: 3s;
+}
+.zeta-smoke .h1-smoke .span1:nth-child(4)
+{
+  animation-delay: 3.5s;
+}
+.zeta-smoke .h1-smoke .span1:nth-child(5)
+{
+  animation-delay: 3.9s;
+}
+.zeta-smoke .h1-smoke .span1:nth-child(6)
+{
+  animation-delay: 4.2s;
+}
+.zeta-smoke .h1-smoke .span1:nth-child(7)
+{
+  animation-delay: 4.5s;
+}
+.zeta-smoke .h1-smoke .span1:nth-child(8)
+{
+  animation-delay: 5s;
+}
+
+/*CARDS*/
+:root {
+  --primary: #DD946F ;
+  --secondary: #261E5A;
+  --secondary1: #edecf2;
+}
+
+.cards-zeta {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cuerpo-cards {
+  background-color: var(--secondary1);
+  font-family: Mulish;
+}
+
+.background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 35px 32px;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1200px;
+  gap: 24px;
+}
+
+.articles article {
+  max-width: 320px;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+/* .articles article a {
+  display: inline-flex;
+  color: var(--primary);
+  text-decoration: none;
+} */
+
+
+.articles article h2 {
+  margin: 0 0 18px 0;
+  font-size: 30px;
+  color: var(--secondary);
+  transition: color 0.3s ease-out;
+}
+
+
+.articles article img {
+  max-width: 100%;
+  transform-origin: center;
+  transition: transform 0.4s ease-in-out;
+}
+
+.article-preview {
+  padding: 24px;
+  background: white;
+}
+
+.article-preview p{
+  font-size: 15px;
+}
+
+.articles figure {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.articles figure img {
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.articles article:hover img {
+  transform: scale(1.5); 
+}
+
+
+
+/*ROTATION ANIMATION 2.0*/
+
+.zeta{
+  background: url(https://sm.ign.com/t/ign_tr/screenshot/default/interstellar-1280jpg-8dd6a2_73945_kjrz.1280.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+
+.grid-zeta{
+  margin-top: 10%;
+  margin-bottom: 40%;
+  /* background: url(https://sm.ign.com/t/ign_tr/screenshot/default/interstellar-1280jpg-8dd6a2_73945_kjrz.1280.jpg);
+  background-size: cover; */
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /*lo que arriba centra la animacion, pero aun se sobresale de su contenedor*/
+
+  position: relative;
+  width: 200px;
+  height: 300px;
+  transform-style: preserve-3d;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+      transform: perspective(1000px) rotateY(0deg); /* agregar esto para que sea estatico y no crezca ==> rotateY(0deg); */
+  }
+  100% {
+      transform: perspective(1000px) rotateY(360deg);
+  }
+}
+.box span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i)* 45deg)) translatez(400px);
+  -webkit-box-reflect: below 0px linear-gradient( transparent, transparent, #0004);
+}
+
+.box span img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/*servicios informacion profundizada*/
+
+:root {
+--background: white;
+--primary-blue: #625BFE;
+--secondary-blue: #4bd7e3;
+--text-color: #4d5b7c;
+}
+
+.services {
+scroll-behavior: smooth;
+}
+
+.services-body {
+background-color: var(--background);
+  padding: 64px;
+font-family: Mulish;
+color: var(--text-color);
+}
+
+.progress__wrapper {
+position: fixed;
+top: 0;
+left: 0;
+  z-index: 100;
+width: 100%;
+height: 10px;
+background-color: #2c2c2c;
+}
+
+.progress__bar {
+display: block;
+width: 0;
+height: inherit;
+background: linear-gradient(
+  90deg, rgb(255, 192, 1) 0%, 
+  rgb(215, 226, 0) 16.15%, 
+  rgb(128, 211, 74) 33.85%, 
+  rgb(0, 214, 136) 50.52%,
+    rgb(1, 208, 192) 66.15%, 
+  var(--secondary-blue) 81.25%, 
+  var(--primary-blue) 100%
+);
+}
+
+.article__content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.article__content p {
+line-height: 1.5;
+}
+
+.article__content h1 {
+font-weight: 700;
+  margin: 0;
+
+  font-size: 38px;
+}
+
+/*LUGARES DONDE ESTUVIMOS*/
+:root {
+  --background1: #ffffff;
+}
+
+.background2 {
+  background-color: var(--background1);
+  /* display: grid; */
+  margin-top: 60px;
+  margin-right: 20px;
+  place-items: center;
+  /* height: 100vh; */
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 800px;
+}
+
+.card1 {
+  position: relative;
+  left: 0px;
+  width: 120px;
+  border-radius: 16px;
+  height: 400px;
+  overflow: hidden;
+  background-color: var(--background);
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+  flex: 0.25;
+}
+
+.card1 img {
+  height: 400px;
+}
+
+.card1:hover {
+  flex: 2;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+
+/*Vertical tabs*/
+
+:root {
+  --white: #FFF;
+  --gray: #F3F3F3;
+  --gray-mid: #9D9D9D;
+  --gray-dark: #3e3e3e;
+  --gray-hover: #F7F7F7;
+  --body-background: #dfdfdf;
+}
+
+.vertical-tabs {
+  font-family: 'Poppins';
+  /* display: flex; */
+
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  padding: 50px 16px;
+  background-color: var(--body-background);
+}
+
+
+.tabs-container {
+	padding: 16px;
+    width: 100%;
+    max-width: 480px;
+    min-width: 320px;
+    display: flex;
+	margin: 10px;
+	border-radius: 16px;
+    background-color: var(--white);
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;	
+}
+
+.tab-content-wrapper {
+    overflow-y: hidden;
+    overflow-x: auto;
+    height: 300px;
+    transition: all 0.45s ease-in-out;
+    padding: 0 16px;
+}
+
+.tab-content h2 {
+    color: var(--gray-dark);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.tab-content {
+    font-size: 0.8rem;
+    min-height: 300px;
+    min-width: 240px;
+    overflow-x: auto;
+    transition: all 0.45s ease-in-out;
+}
+
+.tabs {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #F0F0F0;
+    list-style-type: none;
+    padding-right: 16px;
+    gap: 8px;
+}
+
+.tabs a {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--gray-mid);
+    text-align: left;
+    border-radius: 8px;
+    justify-content: start;
+    padding: 12px;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.tabs a img {
+    height: 20px;
+    width: 20px;
+}
+
+.tabs .active, .tabs a:hover {
+    font-weight: 700;
+    outline: none;
+    color: white;
+    background-color: var(--gray-dark);
+}
+
+
+.tabs a svg {
+    stroke: var(--gray-mid);
+}
+
+.tabs .active svg {
+    stroke: var(--white);
+}
+
+.tabs a:hover svg {
+    stroke: var(--white);
+}
+
+/*CARD perfil de clientes satisfechos*/
+
+:root {
+  --background4: #e7a2a2;
+}
+
+.card-profile1{
+    border-color: var(--background4);
+    display: grid;
+    place-items: center;
+    /* height: 100vh; */
+    padding: 24px;
+    font-family: Poppins, sans-serif;
+}
+
+.card2 {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px 20px 16px 16px;
+  background-color: white;
+  cursor: pointer;
+  overflow: hidden;
+  max-width: clamp(620px, 70vw, 820px);
+  min-width: 260px;
+  min-height: 280px;
+}
+
+.card2:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.background4 {
+  flex: 1 1 250px;
+}
+
+.background4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content3 {
+  flex: 3 1 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 20px;
+}
+
+.content3 .h2-titulo {
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  font-weight: 700;
+  margin-bottom: clamp(0.35rem, 2vw, 0.55rem);
+}
+
+.content3 .parrafo {
+  font-size: clamp(1.1rem, 1.75vw, 1.35rem);
+  font-weight: 400;
+  margin-bottom: 16px;
+  line-height: 22px;
+}
+
+.social-icons1 {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  margin-top: auto;
+  gap: clamp(0.4rem, 2vw, 0.8rem);
+}
+
+.social-icons1 li {
+  list-style: none;
+}
+
+.social-icons1 li a {
+  position: relative;
+  display: block;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  transition: .2s;
+}
+
+/* .social-icons li a svg {
+  stroke: var(--background);
+  width: clamp(1.6rem, 2.3vw, 2rem);
+  height: clamp(1.6rem, 2.3vw, 2rem);
+  stroke-width: 2px;
+}
+
+.social-icons li a:hover svg {
+  transition: 1.2s;
+  transform: rotateY(360deg);
+} */
+
+
+/*BOTONES ZETA PARA PAGINA CATALOGO-FALTA MIGRAR TODO A SASS Y CORREGIR MUCHAS COSAS*/
+
+
+.buttonz {
+  margin-left: 15%;
+  margin-top: 8%;
+  border: 0px solid;
+  outline: 2px solid;
+  color: rgb(227, 76, 76);
+  outline-color: rgb(228, 60, 60);
+  outline-offset: 0px;
+  text-shadow: none;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  max-width: 160px; 
+  width: 100%; 
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  transition: all 550ms cubic-bezier(
+      .36,.63,.5,.73
+  );
+}
+
+.buttonz:hover {
+  border: 2px solid var(--accent);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  color: var(--accent);
+}
+
+/*ACORDEON PREGUNTAS SOBRE LOS PRODUCTOS Y MAS-ZETA-PAGINA CATALOGO*/
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 2em;
+}
+
+details {
+	font-size: 1rem;
+	margin: 0 auto;
+	width: 100%;
+	background: #F6FAFF;
+	border-radius: 8px;
+	position: relative;
+	max-width: 600px;
+  border: 1px solid #C3DEFF;
+  transition: all 0.3s ease-in-out;
+}
+
+details:hover {
+  border: 1px solid #A4A1FF;
+}
+
+
+summary {
+  user-select: none;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  list-style: none;
+  padding: 1em;
+  align-items: center;
+}
+
+summary:hover .faq-title {
+  opacity: 1;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:focus {
+  outline: none;
+}
+
+summary:hover .expand-icon {
+  opacity: 1;
+}
+
+.faq-title {
+  color: #1C2035;
+  width: 90%;
+  opacity: 0.65;
+  transition: all 250ms ease-in-out;
+}
+
+.faq-content {
+  color: #303651;
+  padding: 0.2em 1em 1em 1em;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.expand-icon {
+  opacity: 0.65;
+}
+
+.expand-icon {
+  pointer-events: none;
+  position: absolute;
+  right: 1em;
+  transition: all 150ms ease-out;
+}
