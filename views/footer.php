@@ -24,13 +24,10 @@
       </div>
       <div class="cell small-12 medium-4 large-3 titulo-footer">
         <h3>Siganos en Redes Sociales</h3>
-        <a href="https://web.facebook.com/edgarapazac" target="_blank" class="rss"><i
-            class="fa-brands fa-facebook"></i></a>
+        <a href="https://web.facebook.com/edgarapazac" target="_blank" class="rss"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://twitter.com/eapaza15" target="_blank" class="rss"><i class="fa-brands fa-tiktok"></i></a>
-        <a href="https://www.linkedin.com/in/edgar-apaza-941745139/" target="_blank" class="rss"><i
-            class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.youtube.com/channel/UC1UuS6WNsEkTYJFSrbsJU7wi" target="_blank" class="rss"><i
-            class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/in/edgar-apaza-941745139/" target="_blank" class="rss"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.youtube.com/channel/UC1UuS6WNsEkTYJFSrbsJU7wi" target="_blank" class="rss"><i class="fa-brands fa-youtube"></i></a>
 
       </div>
       <div class="cell small-12 medium-4 large-3 titulo-footer">
@@ -56,9 +53,8 @@
 </div>
 
 
-
-<script src="<?php echo constant('URL'); ?>public/js/main.js"></script>
 <script src="<?php echo constant('URL'); ?>public/js/core/jquery.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/js/main.js"></script>
 <script src="<?php echo constant('URL'); ?>public/js/foundation.min.js"></script>
 
 <script>

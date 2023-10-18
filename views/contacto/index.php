@@ -44,13 +44,13 @@
             <th>Direccion:</th>
             <td>
               <span class="icon-location"></span>
-              ******* ******* ******** ** *
+              Jr. Victor E. Chave 153 - Puno
             </td>
           <tr>
             <th>Telefono:</th>
             <td>
               <span class="icon-phone"></span>
-              (051) 600 - 465
+              (051) 935 017 466
             </td>
           </tr>
           <tr>
@@ -58,7 +58,8 @@
             <td>
               <p>
                 <span class="icon-mail"></span>
-                edgarapaza@katari.org.pe
+                edgarapaza@katari.org.pe <br>
+                edgarapazac@gmail.com
               </p>
             </td>
           </tr>
