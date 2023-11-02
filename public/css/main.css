@@ -8,7 +8,11 @@
 body {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+p {
+  font-size: 1.2em;
 }
 
 .hero {

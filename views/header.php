@@ -35,7 +35,7 @@
         <li><a href="<?php echo constant('URL'); ?>main">Inicio</a></li>
         <li><a href="<?php echo constant('URL'); ?>empresa">Empresa</a></li>
         <li><a href="<?php echo constant('URL'); ?>productos">Productos y Servicios</a></li>
-        <li><a href="<?php echo constant('URL'); ?>clientes">Clientes</a></li>
+        <li><a href="<?php echo constant('URL'); ?>blog">Blog</a></li>
         <li class="activate"><a href="<?php echo constant('URL'); ?>contacto">
             <i class="fa-solid fa-phone"></i>
             Contacto

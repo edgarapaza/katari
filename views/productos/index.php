@@ -15,13 +15,13 @@
   </section>
 </div> -->
 
-<hr>
 
 <!--CARDS-->
 <div class="grid-container">
 
   <div class="cell text-center">
     <h1>Productos y Servicios</h1>
+    <b><em>Elija entre nuestras opciones</em></b>
   </div>
 
   <div class="grid-x">
@@ -241,7 +241,7 @@
       <img src="<?php echo constant('URL'); ?>public/img/estudioMercado.jpg" alt="Forest">
     </div>
     <div class="cell small-12 large-6">
-      <p class="p-central">Estudio de mercado</p>
+      <p class="p-central">Un estudio de mercado es un conjunto de acciones realizadas por organizaciones comerciales que tienen como objetivo obtener información sobre el estado actual de un segmento determinado mercado. Su finalidad es conocer en profundidad el nicho que se pretende conquistar, como así también su grado de rentabilidad</p>
     </div>
   </div>
 
