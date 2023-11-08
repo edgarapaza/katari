@@ -40,7 +40,7 @@
     <div class="grid-x">
       <div class="cell small-12 medium-6 large-4">
         <div class="thumbnail">
-          <img src="https://images.pexels.com/photos/3182829/pexels-photo-3182829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Grupo">
+          <img src="https://images.pexels.com/photos/3182829/pexels-photo-3182829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Grupo" width="250px">
         </div>
       </div>
       <div class="cell small-12 medium-6 large-8">
@@ -64,8 +64,8 @@
       <div class="cell small-12 medium-6 large-4">
         <a href="productos#desarrollo-software" class="activate">
           <div class="card">
-            <img class="thumbnail" src="https://images.pexels.com/photos/5793953/pexels-photo-5793953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo of Uranus.">
-            <div class="card-section">
+            <img class="thumbnail" src="https://images.pexels.com/photos/5793953/pexels-photo-5793953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Software">
+            <div class="card-servicios">
               <h4>Desarrollo de software</h4>
               <p>Tecnologias: JAVA, C++, PHP, Javascript</p>
             </div>
@@ -76,8 +76,8 @@
       <div class="cell small-12 medium-6 large-4">
         <a href="productos#redes-cableado" class="activate">
           <div class="card">
-            <img class="thumbnail" src="https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo of Uranus.">
-            <div class="card-section">
+            <img class="thumbnail" src="https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Cableado de Redes">
+            <div class="card-servicios">
               <h4>Redes y Cableado estructurado</h4>
               <p>Mejoras internas de la institución</p>
             </div>
@@ -87,8 +87,8 @@
       <div class="cell small-12 medium-6 large-4">
         <a href="productos#analisis-estadistico" class="activate">
           <div class="card">
-            <img class="thumbnail" src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo of Uranus.">
-            <div class="card-section">
+            <img class="thumbnail" src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Analisis Estadistico">
+            <div class="card-servicios">
               <h4>Analisis Estadistico</h4>
               <p>Analisis Bigdata con Machine Learnign</p>
             </div>
@@ -101,8 +101,8 @@
       <div class="cell small-12 medium-6 large-4">
         <a href="productos#especialista-archivos" class="activate">
           <div class="card">
-            <img class="thumbnail" src="https://images.pexels.com/photos/6334780/pexels-photo-6334780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo of Uranus.">
-            <div class="card-section">
+            <img class="thumbnail" src="https://images.pexels.com/photos/6334780/pexels-photo-6334780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Especialista en Archivos">
+            <div class="card-servicios">
               <h4>Especialista en Archivos</h4>
               <p>Experiencia en la organización de Archivos, Archivo Central</p>
             </div>
@@ -112,8 +112,8 @@
       <div class="cell small-12 medium-6 large-4">
         <a href="productos#estudio-mercado" class="activate">
           <div class="card">
-            <img class="thumbnail" src="https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo of Uranus.">
-            <div class="card-section">
+            <img class="thumbnail" src="https://images.pexels.com/photos/18627851/pexels-photo-18627851/free-photo-of-vendedora-de-comida-mexicana.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Estudio de mercado">
+            <div class="card-servicios">
               <h4>Estudio de Mercado</h4>
               <p>Analisis comercial estadistico</p>
             </div>

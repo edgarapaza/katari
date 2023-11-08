@@ -4,23 +4,23 @@
 <!-- <div class="zeta-smoke">
   <section class='section-smoke'>
     <video src="<?php echo constant('URL'); ?>public/video/smoke.mp4" autoplay muted></video>
-    <h1 class='h1-smoke'>
+    <h3 class='h3-smoke'>
       <span class="span1">K</span>
       <span class="span1">A</span>
       <span class="span1">T</span>
       <span class="span1">A</span>
       <span class="span1">R</span>
       <span class="span1">I</span>
-    </h1>
+    </h3>
   </section>
 </div> -->
 
-
+<br>
 <!--CARDS-->
 <div class="grid-container">
 
   <div class="cell text-center">
-    <h1>Productos y Servicios</h1>
+    <h3>Productos y Servicios</h3>
     <b><em>Elija entre nuestras opciones</em></b>
   </div>
 
@@ -33,7 +33,7 @@
         </div>
         <img src="<?php echo constant('URL'); ?>public/img/desarrolloSoftware.jpg" alt="Preview">
         <div class="card-section">
-          <h2>Desarrollo de software</h2>
+          <h3>Desarrollo de software</h3>
           <p>
             Los lenguajes de programación que usamos son: JAVA, .NET, PHP Y Python <br>
             <a href="#desarrollo-software" class="read-more" title="Leer mas +">
@@ -50,7 +50,7 @@
         </div>
         <img src="<?php echo constant('URL'); ?>public/img/cableado.jpg" alt="Preview">
         <div class="card-section">
-          <h2>Redes y Cableado estructurado</h2>
+          <h3>Redes y Cableado estructurado</h3>
           <p>
             Realizamos armado de redes en Categoria 6 y 6A, con cableado estructurado, uso de bandejas
             y canaletas, faciles de instalar y de dar mantenimiento.
@@ -58,6 +58,7 @@
             <a href="#redes-cableado" class="read-more" title="Leer mas +">
               Leer mas +
             </a>
+          </p>
         </div>
       </div>
     </div>
@@ -68,7 +69,7 @@
         </div>
         <img src="<?php echo constant('URL'); ?>public/img/estadisticas2.jpg" alt="Preview">
         <div class="card-section">
-          <h2>Analisis Estadistico</h2>
+          <h3>Analisis Estadistico</h3>
           <p>
             Las empresas e instituciones, deben analizar sus datos para poder tomar desiciones para su
             negocio o empresa, asi que hacemos uso de Machine Learnig con Inteligencia artificial
@@ -91,7 +92,7 @@
         </div>
         <img src="<?php echo constant('URL'); ?>public/img/archivos.jpg" alt="Preview">
         <div class="card-section">
-          <h2>Especialista en Archivos</h2>
+          <h3>Especialista en Archivos</h3>
           <p>
             En materia de archivos, contamos con gran experiencia en: A) Diagnostico de la documentación
             archivistica b) Elaboración de los instrumentos de gestión C) Organización de documentos,
@@ -111,7 +112,7 @@
         </div>
         <img src="<?php echo constant('URL'); ?>public/img/estudioMercado.jpg" alt="Preview">
         <div class="card-section">
-          <h2>Estudio de Mercado</h2>
+          <h3>Estudio de Mercado</h3>
           <p>
             Los estudios de mercado, son una herramienta importante, no solo para las empresas que se
             encargan de la venta de los productos, sino de las instituciones que brindan servicio, permitiendo
@@ -128,11 +129,11 @@
     <div class="cell small-12 large-4">.</div>
   </div>
 
-
   <!--ANIMATION ROTATION Cambiar imagenes-->
   <div class="cell text-center">
-    <h1>Escoja entre nuestros productos para ver su descripción</h1>
+    <h3>Escoja entre nuestros productos para ver su descripción</h3>
   </div>
+
   <div class="grid-x">
     <div class="cell small-12 large-12">
       <div class="grid-zeta">
@@ -150,29 +151,33 @@
     </div>
   </div>
 
+
   <hr>
   <!-- explicacion mas profuncda de los productos y servicios -->
 
   <div class="grid-x">
-    <div class="row text-center">
-      <h1>
+    <div class="cell small-12 large-12 text-center">
+      <h3>
         Mas sobre los Productos y servicios.
-      </h1>
+      </h3>
       <p>En esta seccion usted podra profundizar sobre nuestros productos y servicios, que es lo que brindamos a
         nuestros clientes, que servicios ofrecemos, a quienes esta dirigido estos servicios, y por que deberia
         tener estas tecnologias, estos productos y servicios con usted y para su futura empresa exitosa.
       </p>
     </div>
-    <br>
-    <hr>
-    <div class="cell small-12 large-6">
-      <h2 id="desarrollo-software">
+  </div>
+
+  <div class="grid-x grid-margin-x">
+    <div class="cell text-center">
+      <h3 id="desarrollo-software">
         Desarrollo de Software
-      </h2>
+      </h3>
+    </div>
+    <div class="cell small-12 large-6">
       <img src="<?php echo constant('URL'); ?>public/img/desarrolloSoftware.jpg" alt="Lavender Field">
     </div>
     <div class="cell small-12 large-6">
-      <p class="p-central">Utilizamos las ultimas tecnologias para brindar un servicio de calidad en la contruccion de aplicaciones
+      <p class="desproducto">Utilizamos las ultimas tecnologias para brindar un servicio de calidad en la contruccion de aplicaciones
         WEB, aplicaciones de escritorio y cualquier software que requiera ustes o su empresa.
         Tecnologias como: JAVA, C++, PHP, JavaScript, C#, Python, dependiendo a sus necesidades.
         Con los mas aptops Ingenieros en el campo de la programacion
@@ -180,9 +185,15 @@
     </div>
   </div>
   <br>
-  <div class="grid-x">
+
+  <div class="grid-x grid-margin-x">
+    <div class="cell text-center">
+      <h3 id="desarrollo-software">
+        Redes y cableado estructurado
+      </h3>
+    </div>
     <div class="cell small-12 large-6">
-      <p class="p-central">El cableado estructurado permite la integración de
+      <p class="desproducto">El cableado estructurado permite la integración de
         diferentes servicios como datos, telefonía, control…etc. que dependen del tendido de cables.Su funcion
         es transportar señales desde unos dispositivos a otros con el objetivo de crear la red de arealocal del
         mismo.
@@ -192,23 +203,23 @@
         inteligentes como su empresa.</p>
     </div>
     <div class="cell small-12 large-6">
-      <h2 id="redes-cableado">
-        Redes y Cableado estructurado
-      </h2>
       <img src="<?php echo constant('URL'); ?>public/img/cableado.jpg" alt="Autumn">
     </div>
-
   </div>
+
   <br>
-  <div class="grid-x">
-    <div class="cell small-12 large-6">
-      <h2 id="analisis-estadistico">
+
+  <div class="grid-x grid-margin-x">
+    <div class="cell text-center">
+      <h3 id="analisis-estadistico">
         Analisis Estadistico
-      </h2>
+      </h3>
+    </div>
+    <div class="cell small-12 large-6">
       <img src="<?php echo constant('URL'); ?>public/img/estadisticas.jpg" alt="Summer">
     </div>
     <div class="cell small-12 large-6">
-      <p class="p-central">¿Qué es el análisis estadístico? Es la ciencia de recopilar, explorar y presentar grandes cantidades de
+      <p class="desproducto">¿Qué es el análisis estadístico? Es la ciencia de recopilar, explorar y presentar grandes cantidades de
         datos para descubrir patrones y tendencias implícitos. Las estadísticas se aplican todos los días - en
         la investigación, la industria y el gobierno - para volvernos más científicos acerca de las decisiones
         que se necesitan tomar. Tome las mejores decisiones para usted y su empresa con el analisis estadistico
@@ -217,40 +228,44 @@
     </div>
   </div>
   <br>
-  <div class="grid-x">
+
+  <div class="grid-x grid-margin-x">
+    <div class="cell text-center">
+      <h3 id="especialista-archivos">
+        Especialista en Archivos
+      </h3>
+    </div>
     <div class="cell small-12 large-6">
-      <p class="p-central">Experiencia en la organización de Archivos, Archivo Central. Con nosotros el manejo, procesamiento y
+      <p class="desproducto">Experiencia en la organización de Archivos, Archivo Central. Con nosotros el manejo, procesamiento y
         organizacion de sus archivos sera mucho mas sencillo y eficaz, con nuestra experiencia y con las ultimas
         tecnologias que usamos aseguramos un buen servicio en Archivos de cualquier tipo.
       </p>
     </div>
     <div class="cell small-12 large-6">
-      <h2 id="especialista-archivos">
-        Especialista en Archivos
-      </h2>
       <img src="<?php echo constant('URL'); ?>public/img/archivos12.jpg" alt="Forest">
     </div>
   </div>
   <br>
 
-  <div class="grid-x">
-    <div class="cell small-12 large-6">
-      <h2 id="estudio-mercado">
+  <div class="grid-x grid-margin-x">
+    <div class="cell text-center">
+      <h3 id="estudio-mercado">
         Estudio de Mercado
-      </h2>
+      </h3>
+    </div>
+    <div class="cell small-12 large-6">
       <img src="<?php echo constant('URL'); ?>public/img/estudioMercado.jpg" alt="Forest">
     </div>
     <div class="cell small-12 large-6">
-      <p class="p-central">Un estudio de mercado es un conjunto de acciones realizadas por organizaciones comerciales que tienen como objetivo obtener información sobre el estado actual de un segmento determinado mercado. Su finalidad es conocer en profundidad el nicho que se pretende conquistar, como así también su grado de rentabilidad</p>
+      <p class="desproducto">Un estudio de mercado es un conjunto de acciones realizadas por organizaciones comerciales que tienen como objetivo obtener información sobre el estado actual de un segmento determinado mercado. Su finalidad es conocer en profundidad el nicho que se pretende conquistar, como así también su grado de rentabilidad</p>
     </div>
   </div>
-
   <hr>
-
+</div>
   <!--LUGARES DONDE ESTUVIMOS
   <div class="grid-container">
   <div class="cell columns text-center">
-    <h1>Katari</h1>
+    <h3>Katari</h3>
   </div>
   <div class="grid-x">
     <div class="cell small-12 medium-6 large-6">Donde estuvimos?
@@ -287,8 +302,8 @@
           <li>
             <a id="tab1" title="Analytics" href="#tab1">
               <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M3 3v18h18"></path>
+                <path stroke="none" d="M0 0h34v24H0z" fill="none"></path>
+                <path d="M3 3v18h38"></path>
                 <path d="M20 18v3"></path>
                 <path d="M16 16v5"></path>
                 <path d="M12 13v8"></path>
@@ -301,7 +316,7 @@
           <li>
             <a id="tab2" title="Reports" href="#tab2">
               <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path stroke="none" d="M0 0h34v24H0z" fill="none"></path>
                 <path d="M7 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
                 <path d="M7 3v4h4"></path>
                 <path d="M9 17l0 4"></path>
@@ -316,7 +331,7 @@
           <li>
             <a id="tab3" title="Performance" href="#tab3">
               <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path stroke="none" d="M0 0h34v24H0z" fill="none"></path>
                 <path d="M3 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
                 </path>
                 <path d="M9 8m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
@@ -331,7 +346,7 @@
           <li>
             <a id="tab4" title="Funds" href="#tab4">
               <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path stroke="none" d="M0 0h34v24H0z" fill="none"></path>
                 <path d="M3 21l18 0"></path>
                 <path d="M3 10l18 0"></path>
                 <path d="M5 6l7 -3l7 3"></path>
@@ -347,7 +362,7 @@
         </ul>
         <div class="tab-content-wrapper">
           <section id="tab1-content" class="tab-content">
-            <h2>Analytics</h2>
+            <h3>Analytics</h3>
             <p>
               Investment analytics involves the use of data, statistical techniques, and financial
               models to evaluate and optimize investment decisions. It's a discipline that aids
@@ -357,7 +372,7 @@
             </p>
           </section>
           <section id="tab2-content" class="tab-content">
-            <h2>Reports</h2>
+            <h3>Reports</h3>
             <p>
               Investment reports provide detailed information about the status, performance, and other
               relevant aspects of an investment or portfolio. They can be generated for individual
@@ -366,7 +381,7 @@
             </p>
           </section>
           <section id="tab3-content" class="tab-content">
-            <h2>Performance</h2>
+            <h3>Performance</h3>
             <p>
               Investment performance refers to the returns generated on an investment relative to the
               amount of money invested. It's a way to measure and evaluate the growth or decline of an
@@ -375,7 +390,7 @@
             </p>
           </section>
           <section id="tab4-content" class="tab-content">
-            <h2>Funds</h2>
+            <h3>Funds</h3>
             <p>
               Investment funds are pooled collections of money from multiple investors that are
               managed collectively by professionals or on behalf of the investors. The main objective

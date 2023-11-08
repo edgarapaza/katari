@@ -4,7 +4,7 @@
 
   <div class="large text-center">
     <h1>CONTÁCTANOS</h1>
-    <img src="<?php echo constant('URL'); ?>public/img/imagen.j.png" alt="Una imagen">
+    <img src="<?php echo constant('URL'); ?>public/img/callcenter.jpg" alt="Una imagen">
   </div>
   <br>
 
