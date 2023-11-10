@@ -1,8 +1,7 @@
 RewriteEngine On
 
-# Options +FollowSymlinks
-
 Options All -Indexes
+
 # Acepta la carga actual de archivos y directorios
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f

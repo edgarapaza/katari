@@ -7,9 +7,10 @@ class App
   {
     #echo "<p>Nueva APP</p>";
 
-    @$url = $_GET['url'];
-    @$url = rtrim($url, '/');
+    $url = $_GET['url'];
+    $url = rtrim($url, '/');
     $url = explode('/', $url);
+
 
     if (empty($url[0])) {
 

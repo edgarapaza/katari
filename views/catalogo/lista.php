@@ -26,14 +26,18 @@
                             $prod = $data;
                     ?>
                     <tr>
-                        <td><img src="<?php echo $prod->imagen; ?>" alt="miniatura" width="150px"></td>
+                        <td>
+                            <img src="<?php echo $prod->imagen; ?>" alt="miniatura" width="150px">
+                        </td>
                         <td>
                             <strong><?php echo $prod->nombre; ?></strong>
                             <br>
                             <?php echo $prod->caracteristicas; ?>
                         </td>
                         <td><?php echo $prod->categoria; ?></td>
-                        <td><a href="<?php echo constant('URL'); ?>catalogo/ver/<?php echo $prod->idproducto; ?>">Ver + detalles</a></td>
+                        <td>
+                            <a href="<?php echo constant('URL'); ?>catalogo/ver/<?php echo $prod->idproducto; ?>">Ver + detalles</a>
+                        </td>
                     </tr>
                     <?php }?>
                 </tbody>

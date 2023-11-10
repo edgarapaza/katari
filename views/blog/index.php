@@ -11,8 +11,8 @@
                 <h2><?php echo $this->datos['titulo']; ?></h2>
             </div>
             <img class="thumbnail" src="<?php echo $this->datos['imagen']; ?>">
-            <div class="row">
-                <h3><?php echo $this->datos['descripcion']; ?></h3>
+            <div class="row text-center">
+                <em><?php echo $this->datos['descripcion']; ?></em>
             </div>
 
             <div><?php echo $this->datos['contenido']; ?></div>

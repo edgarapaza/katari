@@ -24,39 +24,38 @@ class Conexion
   public function ConsultaSin($sql)
   {
     # Sirve para: INSERT, UPDATE, DELETE
-    echo $sql;
-
-    if (!$this->conn->query($sql)) {
-      echo "Error. " . mysqli_error($this->conn);
-      exit();
+    try {
+      $this->conn->query($sql);
+      $res = TRUE;
+    } catch (Exception $e) {
+      echo 'Excepción: ',  $e->getMessage();
+      $res = FALSE;
     }
 
-    return true;
+    return $res;
     mysqli_close($this->conn);
   }
 
-  public function ConsultaCon($sql)
+  function ConsultaCon($sql)
   {
     # Sirve para: SELECT
-
-    if (!$result = $this->conn->query($sql)) {
-      echo "Error: " . mysqli_error($this->conn);
-      return false;
-      exit();
+    try {
+      $result = $this->conn->query($sql);
+    } catch (Exception $e) {
+      echo 'Excepción: ',  $e->getMessage();
     }
 
     return $result;
     mysqli_close($this->conn);
   }
 
-  public function ConsultaArray($sql)
+  function ConsultaArray($sql)
   {
     # Sirve para: SELECT convertido en array
-    #echo $sql;
-
-    if (!$result = $this->conn->query($sql)) {
-      echo "Error. " . mysqli_error($this->conn);
-      return false;
+    try {
+      $result = $this->conn->query($sql);
+    } catch (Exception $e) {
+      echo 'Excepción: ',  $e->getMessage();
     }
 
     $data = $result->fetch_array(MYSQLI_ASSOC);

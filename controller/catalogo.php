@@ -14,6 +14,7 @@ class Catalogo extends Controller
 		$data = $this->model->verpost($post);
 		$this->view->datos = $data;
 		$this->view->Render('catalogo/index');
+
 	}
 
 	function render()
