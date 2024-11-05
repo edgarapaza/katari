@@ -1,5 +1,5 @@
 <?php require('views/header.php'); ?>
-
+<link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/title.css">
   <div class="hero">
 
     <div class="slider">

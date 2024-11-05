@@ -17,6 +17,7 @@
 
 <br>
 <!--CARDS-->
+<link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/empresa.css">
 <div class="grid-container">
 
   <div class="cell text-center">

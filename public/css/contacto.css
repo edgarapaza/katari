@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Wet+Paint&display=swap');
+h5 {
+    font-weight: bold;
+    margin: 0;
+}
+.ub {
+    font-family: "PT Serif", system-ui;
+    font-weight: 40;
+    font-style: normal;
+}
+.tie h1 {
+        font-family: "PT Serif", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+
+h4.tie {
+    font-size: 1.8em; 
+    font-family: "PT Serif", system-ui;
+    text-transform: uppercase; 
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px; 
+    font-size: 1em; 
+    transition: border-color 0.3s; 
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #0078d4; 
+    outline: none; 
+}
+
+.submit.button {
+    background-color: #28a745; 
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s; 
+}
+
+.submit.button:hover {
+    background-color: #218838;
+}
+

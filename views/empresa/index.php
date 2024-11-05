@@ -1,11 +1,11 @@
 <?php require('views/header.php'); ?>
 
-
+<link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/empresa.css">
 <div class="grid-container">
   <!-- Poner el codigo en HTML aqui -->
 
-  <div class="grid-x fondo1">
-    <h1>Katari A&C</h1>
+  <div class="grid-x fondo1 text-center">
+    <h1 class="tie">Katari A&C</h1>
   </div>
 
   <div class="grid-x">
@@ -23,22 +23,19 @@
       <p>En este año 2023, ya cumplimos 07 años (2016-2023) de fuertes desafios y de experiencias enriquecedoras, y 03 (2020 - 2023) años de trabajar con un nuevo modelo, ahora de la mano de un grupo de profesionales brillantes, que han aportado con sus animos mucho dinamismo a Katari Software en particular.</p>
     </div>
   </div>
-  <div class="grid-x">
-    <div class="cell small-12 medium-6 large-6">
+  <div class="grid-x grid-margin-x">
+    <div class="cell small-12 medium-6 large-6 callout">
       <h3><em>Misión</em></h3>
       <p>Ser una empresa que facilite, mejore y optimice la gestión de las empresas, ofreciendo soluciones tecnológicas y de analisis de datos, que satisfagan las necesidades de nuestros clientes</p>
       <p>Dar soporte en Tecnologías de la Información con base en el análisis de datos a Gobiernos Locales y Regionales, a micro, pequeñas y medianas empresas, con eficacia, eficiencia y efectividad, con un nivel de calidad que supere todas sus expectativas.</p>
     </div>
-    <div class="cell small-12 medium-6 large-6">
+    <div class="cell small-12 medium-6 large-6 callout">
       <h3><em>Visión</em></h3>
       <p>Al 2025 ser reconocidos como una empresa solida que ofrece y brinda servicios de calidad, excelencia y con profesionalismo. Apoyar a los clientes a revisar, solucionar y abastecer de equipos e insumos y/o proyectos que requieran.</p>
       <p>Convertirnos en aliados estrategicos, generadores de soluciones innovadoras de la mano de los avances tecnológicos.</p>
     </div>
   </div>
 
-  <div class="grid-x">
-
-  </div>
 </div>
 
 <?php require('views/footer.php'); ?>
