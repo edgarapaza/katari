@@ -2,11 +2,11 @@
 
 <br>
 <!--CARDS-->
-<link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/empresa.css">
+<link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/productos.css">
 <div class="grid-container">
 
   <div class="cell text-center">
-    <h3>Productos y Servicios</h3>
+    <h3 class="title">Productos y Servicios</h3>
     <b><em>Elija entre nuestras opciones</em></b>
   </div>
 
@@ -19,7 +19,7 @@
         </div>
         <img src="<?php echo constant('URL'); ?>public/img/desarrolloSoftware.jpg" alt="Preview">
         <div class="card-section">
-          <h3>Desarrollo de software</h3>
+          <h3 class="title2">Desarrollo de software</h3>
           <p>
             Los lenguajes de programación que usamos son: JAVA, .NET, PHP Y Python <br>
             <a href="#desarrollo-software" class="read-more" title="Leer mas +">
@@ -36,7 +36,7 @@
         </div>
         <img src="<?php echo constant('URL'); ?>public/img/cableado.jpg" alt="Preview">
         <div class="card-section">
-          <h3>Redes y Cableado estructurado</h3>
+          <h3 class="title2">Redes y Cableado estructurado</h3>
           <p>
             Realizamos armado de redes en Categoria 6 y 6A, con cableado estructurado, uso de bandejas
             y canaletas, faciles de instalar y de dar mantenimiento.
@@ -55,7 +55,7 @@
         </div>
         <img src="<?php echo constant('URL'); ?>public/img/estadisticas2.jpg" alt="Preview">
         <div class="card-section">
-          <h3>Analisis Estadistico</h3>
+          <h3 class="title2">Analisis Estadistico</h3>
           <p>
             Las empresas e instituciones, deben analizar sus datos para poder tomar desiciones para su
             negocio o empresa, asi que hacemos uso de Machine Learnig con Inteligencia artificial
@@ -78,7 +78,7 @@
         </div>
         <img src="<?php echo constant('URL'); ?>public/img/archivos.jpg" alt="Preview">
         <div class="card-section">
-          <h3>Especialista en Archivos</h3>
+          <h3 class="title2">Especialista en Archivos</h3>
           <p>
             En materia de archivos, contamos con gran experiencia en: A) Diagnostico de la documentación
             archivistica b) Elaboración de los instrumentos de gestión C) Organización de documentos,
@@ -98,7 +98,7 @@
         </div>
         <img src="<?php echo constant('URL'); ?>public/img/estudioMercado.jpg" alt="Preview">
         <div class="card-section">
-          <h3>Estudio de Mercado</h3>
+          <h3 class="title2">Estudio de Mercado</h3>
           <p>
             Los estudios de mercado, son una herramienta importante, no solo para las empresas que se
             encargan de la venta de los productos, sino de las instituciones que brindan servicio, permitiendo
@@ -117,7 +117,7 @@
 
   <!--ANIMATION ROTATION Cambiar imagenes-->
   <div class="cell text-center">
-    <h3>Escoja entre nuestros productos para ver su descripción</h3>
+    <h3 class="title2">Escoja entre nuestros productos para ver su descripción</h3>
   </div>
 
   <div class="grid-x">
@@ -142,8 +142,8 @@
   <!-- explicacion mas profuncda de los productos y servicios -->
 
   <div class="grid-x">
-    <div class="cell small-12 large-12 text-center">
-      <h3>
+    <div class="cell small-12 large-12 text-center callout">
+      <h3 class="title2">
         Mas sobre los Productos y servicios.
       </h3>
       <p>En esta seccion usted podra profundizar sobre nuestros productos y servicios, que es lo que brindamos a
@@ -155,7 +155,7 @@
 
   <div class="grid-x grid-margin-x">
     <div class="cell text-center">
-      <h3 id="desarrollo-software">
+      <h3 class="title2" id="desarrollo-software">
         Desarrollo de Software
       </h3>
     </div>
@@ -174,7 +174,7 @@
 
   <div class="grid-x grid-margin-x">
     <div class="cell text-center">
-      <h3 id="desarrollo-software">
+      <h3 class="title2" id="redes-cableado">
         Redes y cableado estructurado
       </h3>
     </div>
@@ -197,7 +197,7 @@
 
   <div class="grid-x grid-margin-x">
     <div class="cell text-center">
-      <h3 id="analisis-estadistico">
+      <h3 class="title2" id="analisis-estadistico">
         Analisis Estadistico
       </h3>
     </div>
@@ -217,7 +217,7 @@
 
   <div class="grid-x grid-margin-x">
     <div class="cell text-center">
-      <h3 id="especialista-archivos">
+      <h3 class="title2" id="especialista-archivos">
         Especialista en Archivos
       </h3>
     </div>
@@ -235,7 +235,7 @@
 
   <div class="grid-x grid-margin-x">
     <div class="cell text-center">
-      <h3 id="estudio-mercado">
+      <h3 class="title2" id="estudio-mercado">
         Estudio de Mercado
       </h3>
     </div>
