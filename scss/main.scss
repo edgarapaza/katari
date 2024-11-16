@@ -1,4 +1,4 @@
-$verde: #00D4B2;
+$verde: #6482AD;
 $blanco: #F2F2F2;
 $negro: #474747;
 /* Paleta colores*/
@@ -7,6 +7,11 @@ $rojo-suave: #FF6969;
 $rojo: #C70039;
 $azul: #141E46;
 $azul2: #4054B2;
+
+$azul4: #6482AD;
+$azul3: #7FA1C3;
+$marron: #E2DAD6;
+$marron2: #F5EDED;
 
 *{
 	margin: 0;
@@ -17,6 +22,7 @@ body{
   font-family: 'Oswald', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  background-color: $marron2;
 }
 
 .incorrecto{
@@ -28,11 +34,11 @@ body{
 }
 .info{
   h4{
-    color: $azul2;
+    color: $azul3;
     font-weight: bold;
   }
   h5{
-    color: $azul;
+    color: $azul3;
   }
 }
 .hero{
@@ -69,6 +75,7 @@ body{
 
 .header{
   background-color: white;
+  opacity: 70%;
 	width: 100%;
   display: flex;
   align-content: center;
@@ -89,14 +96,15 @@ body{
         list-style: none;
         display: inline-block;
         a{
-          color: $verde;
-          font-size: 1.2em;
+          color: $azul4;
+          font-size: 1.3em;
+          font-weight: bold;
           margin-right: 30px;
         }
         :hover{
         	opacity: 0.7;
-        	color: $azul;
-        	border-bottom: 2px solid $verde;
+        	color: #000;
+        	border-bottom: 2px solid red;
         }
       }
     }
@@ -184,13 +192,13 @@ body{
 		h3{
 			padding: 10px;
 			font-size: 1.5em;
-			color: $blanco;
+			color: $marron;
 		}
 		ul{
 			li{
 				list-style: none;
 				.foot{
-					color: $verde;
+					color: $amarillo-suave;
 					font-size: 1em;
 					opacity: 0.6;
 				}
