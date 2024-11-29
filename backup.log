@@ -1,0 +1,8 @@
+#1731783975 Disk /dev/nvme0n1 - 512 GB / 476 GiB - CHS 488386 64 32
+ 1 : start=     2048, size=   204800, Id=00, P
+ 2 : start=   206848, size=    32768, Id=00, P
+ 3 : start=   239616, size=242502224, Id=00, P
+ 4 : start=242743296, size=  1953792, Id=00, P
+ 5 : start=244697088, size=234371072, Id=00, P
+ 6 : start=479068160, size=  4098048, Id=00, P
+ 7 : start=483166208, size=517048320, Id=00, P

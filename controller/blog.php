@@ -1,17 +1,21 @@
 <?php
 
-class Blog extends Controller
-{
+defined('BASEPATH') or exit('No direct script access allowed');
+/* @param Type var Description*/
 
-    function __construct()
+class Blog extends CI_Controller
+{
+    public function index()
     {
-        parent::__construct();
+        $this->load->view('holamundo.html');
     }
 
-    function render()
+    public function inicio($home = "inicio")
     {
-        $post1 = $this->model->post1();
-        $this->view->datos = $post1;
-        $this->view->Render('blog/index');
+        if (!file_exists("applications/views/".$home.".php")) {
+            show_404();
+        }
+
+        $this->load->view($home);
     }
 }

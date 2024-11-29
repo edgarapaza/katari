@@ -1,0 +1,237 @@
+
+
+Sat Nov 16 14:05:39 2024
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.8.0-48-generic (#48~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Oct  7 11:24:13 UTC 2) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'es_MX.UTF-8'.
+
+
+Sat Nov 16 14:05:39 2024
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.8.0-48-generic (#48~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Oct  7 11:24:13 UTC 2) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop46 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 1024 GB / 953 GiB - CHS 124519 255 63, sector size=512 - WALRAM 1 TB
+Disk /dev/loop0 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop1 - 181 MB / 172 MiB - 353552 sectors (RO), sector size=512
+Disk /dev/loop10 - 66 MB / 63 MiB - 130448 sectors (RO), sector size=512
+Disk /dev/loop11 - 77 MB / 74 MiB - 152056 sectors (RO), sector size=512
+Disk /dev/loop12 - 77 MB / 73 MiB - 151296 sectors (RO), sector size=512
+Disk /dev/loop13 - 69 MB / 66 MiB - 135512 sectors (RO), sector size=512
+Disk /dev/loop14 - 69 MB / 66 MiB - 135512 sectors (RO), sector size=512
+Disk /dev/loop15 - 71 MB / 67 MiB - 138768 sectors (RO), sector size=512
+Disk /dev/loop16 - 71 MB / 67 MiB - 138776 sectors (RO), sector size=512
+Disk /dev/loop17 - 65 MB / 62 MiB - 127296 sectors (RO), sector size=512
+Disk /dev/loop18 - 64 MB / 61 MiB - 125240 sectors (RO), sector size=512
+Disk /dev/loop19 - 64 MB / 61 MiB - 125248 sectors (RO), sector size=512
+Disk /dev/loop2 - 180 MB / 172 MiB - 353056 sectors (RO), sector size=512
+Disk /dev/loop20 - 540 MB / 515 MiB - 1055336 sectors (RO), sector size=512
+Disk /dev/loop21 - 540 MB / 515 MiB - 1056096 sectors (RO), sector size=512
+Disk /dev/loop22 - 172 MB / 164 MiB - 337560 sectors (RO), sector size=512
+Disk /dev/loop23 - 529 MB / 505 MiB - 1034424 sectors (RO), sector size=512
+Disk /dev/loop24 - 425 MB / 406 MiB - 832024 sectors (RO), sector size=512
+Disk /dev/loop25 - 143 KB / 140 KiB - 280 sectors (RO), sector size=512
+Disk /dev/loop26 - 68 MB / 65 MiB - 133552 sectors (RO), sector size=512
+Disk /dev/loop27 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop28 - 54 MB / 52 MiB - 107312 sectors (RO), sector size=512
+Disk /dev/loop29 - 221 MB / 211 MiB - 433128 sectors (RO), sector size=512
+Disk /dev/loop3 - 331 MB / 316 MiB - 648120 sectors (RO), sector size=512
+Disk /dev/loop30 - 173 MB / 165 MiB - 338088 sectors (RO), sector size=512
+Disk /dev/loop31 - 179 MB / 171 MiB - 350480 sectors (RO), sector size=512
+Disk /dev/loop32 - 13 MB / 12 MiB - 26472 sectors (RO), sector size=512
+Disk /dev/loop33 - 12 MB / 12 MiB - 24984 sectors (RO), sector size=512
+Disk /dev/loop34 - 40 MB / 38 MiB - 79328 sectors (RO), sector size=512
+Disk /dev/loop35 - 40 MB / 38 MiB - 79520 sectors (RO), sector size=512
+Disk /dev/loop36 - 577 KB / 564 KiB - 1128 sectors (RO), sector size=512
+Disk /dev/loop37 - 581 KB / 568 KiB - 1136 sectors (RO), sector size=512
+Disk /dev/loop38 - 67 MB / 63 MiB - 131056 sectors (RO), sector size=512
+Disk /dev/loop39 - 67 MB / 63 MiB - 130872 sectors (RO), sector size=512
+Disk /dev/loop4 - 331 MB / 316 MiB - 648120 sectors (RO), sector size=512
+Disk /dev/loop40 - 30 MB / 28 MiB - 59024 sectors (RO), sector size=512
+Disk /dev/loop41 - 21 MB / 20 MiB - 41616 sectors (RO), sector size=512
+Disk /dev/loop42 - 336 MB / 321 MiB - 657576 sectors (RO), sector size=512
+Disk /dev/loop43 - 336 MB / 321 MiB - 657616 sectors (RO), sector size=512
+Disk /dev/loop44 - 9453 KB / 9232 KiB - 18464 sectors (RO), sector size=512
+Disk /dev/loop45 - 10 MB / 10 MiB - 21384 sectors (RO), sector size=512
+Disk /dev/loop5 - 109 MB / 103 MiB - 212976 sectors (RO), sector size=512
+Disk /dev/loop6 - 109 MB / 104 MiB - 213384 sectors (RO), sector size=512
+Disk /dev/loop7 - 58 MB / 55 MiB - 113992 sectors (RO), sector size=512
+Disk /dev/loop8 - 58 MB / 55 MiB - 113384 sectors (RO), sector size=512
+Disk /dev/loop9 - 67 MB / 63 MiB - 131016 sectors (RO), sector size=512
+Disk /dev/nvme0n1 - 512 GB / 476 GiB - CHS 488386 64 32, sector size=512
+
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: EFI GPT
+
+Analyse Disk /dev/nvme0n1 - 512 GB / 476 GiB - CHS 488386 64 32
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=1000215215 (expected 1000215215)
+hdr_lba_start=34
+hdr_lba_end=1000215182
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+check_part_gpt failed for partition
+ 2 P MS Reserved               206848     239615      32768 [Microsoft reserved partition]
+check_part_gpt failed for partition
+ 3 P MS Data                   239616  242741839  242502224 [Basic data partition]
+check_part_gpt failed for partition
+ 7 P MS Data                483166208 1000214527  517048320
+Current partition structure:
+ 1 P EFI System                  2048     206847     204800 [EFI system partition]
+No FAT, NTFS, ext2, JFS, Reiser, cramfs or XFS marker
+ 2 P MS Reserved               206848     239615      32768 [Microsoft reserved partition]
+ 2 P MS Reserved               206848     239615      32768 [Microsoft reserved partition]
+No FAT, NTFS, ext2, JFS, Reiser, cramfs or XFS marker
+ 3 P MS Data                   239616  242741839  242502224 [Basic data partition]
+ 3 P MS Data                   239616  242741839  242502224 [Basic data partition]
+ 4 P Windows Recovery Env   242743296  244697087    1953792
+ 5 P Linux filesys. data    244697088  479068159  234371072
+ 6 P Linux Swap             479068160  483166207    4098048
+No FAT, NTFS, ext2, JFS, Reiser, cramfs or XFS marker
+ 7 P MS Data                483166208 1000214527  517048320
+ 7 P MS Data                483166208 1000214527  517048320
+Backup partition structure
+partition_save
+
+search_part()
+Disk /dev/nvme0n1 - 512 GB / 476 GiB - CHS 488386 64 32
+FAT32 at 1/0/1
+FAT1 : 6654-7422
+FAT2 : 7423-8191
+start_rootdir : 8192 root cluster : 2
+Data : 8192-204799
+sectors : 204800
+cluster_size : 2
+no_of_cluster : 98304 (2 - 98305)
+fat_length 769 calculated 769
+heads/cylinder 255 (FAT) != 64 (HD)
+sect/track 63 (FAT) != 32 (HD)
+set_FAT_info: name from BS used
+
+FAT32 at 1/0/1
+FAT: cluster=2(0x2), pos=10240
+     EFI System                  2048     206847     204800 [EFI System Partition] [NO NAME]
+     FAT32, blocksize=1024, 104 MB / 100 MiB
+check_FAT: Bad number of sectors per cluster
+
+LVM magic value at 41652/39/22
+NTFS at 118527/0/1
+heads/cylinder 255 (NTFS) != 64 (HD)
+sect/track 63 (NTFS) != 32 (HD)
+filesystem size           1953792
+sectors_per_cluster       8
+mft_lcn                   81408
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     MS Data                240789505  242743296    1953792
+     NTFS found using backup sector, blocksize=4096, 1000 MB / 954 MiB
+NTFS at 118527/0/1
+heads/cylinder 255 (NTFS) != 64 (HD)
+sect/track 63 (NTFS) != 32 (HD)
+filesystem size           1953792
+sectors_per_cluster       8
+mft_lcn                   81408
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     MS Data                242743296  244697087    1953792
+     NTFS, blocksize=4096, 1000 MB / 954 MiB
+
+recover_EXT2: s_block_group_nr=0/894, s_mnt_count=849/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 29296384
+recover_EXT2: part_size 234371072
+Filesystem created: Fri Mar  3 15:33:22 2023
+Last mount time:    Sat Nov 16 07:14:27 2024
+     Linux filesys. data    244697088  479068159  234371072
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 119 GB / 111 GiB
+     Linux Swap             479068160  483166191    4098032
+     SWAP2 version 1, pagesize=4096, 2098 MB / 2000 MiB
+
+SYSV4 Marker at 385775/50/32
+
+recover_sysv4
+       0 0000 0000 00 00 00 00 00 00 00 00
+     Unknown                790068831 28350122950238 28349332881408 [×à÷¾]
+     SysV4, 14514 TB / 13201 TiB
+       0 0000 0000 00 00 00 00 00 00 00 00
+Partition not added.
+
+SYSV4 Marker at 391376/35/29
+
+recover_sysv4
+       0 0000 0000 00 00 00 00 00 00 00 00
+     Unknown                801539196  801539195          0 [‹ÈÈe}v]
+     SysV4, 0 B
+       0 0000 0000 00 00 00 00 00 00 00 00
+Partition not added.
+
+SYSV4 Marker at 475771/27/3
+
+recover_sysv4
+       0 0000 0000 00 00 00 00 00 00 00 00
+     Unknown                974379874 256710632161 255736252288 [õ,ä„›æ]
+     SysV4, 130 TB / 119 TiB
+       0 0000 0000 00 00 00 00 00 00 00 00
+Partition not added.
+
+Results
+   P EFI System                  2048     206847     204800 [EFI System Partition] [NO NAME]
+     FAT32, blocksize=1024, 104 MB / 100 MiB
+     MS Data                240789505  242743296    1953792
+     NTFS found using backup sector, blocksize=4096, 1000 MB / 954 MiB
+     MS Data                242743296  244697087    1953792
+     NTFS, blocksize=4096, 1000 MB / 954 MiB
+   P Linux filesys. data    244697088  479068159  234371072
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 119 GB / 111 GiB
+   P Linux Swap             479068160  483166191    4098032
+     SWAP2 version 1, pagesize=4096, 2098 MB / 2000 MiB
+
+Hint for advanced users: dmsetup may be used if you prefer to avoid rewriting the partition table for the moment:
+echo "0 204800 linear /dev/nvme0n1 2048" | dmsetup create test0
+echo "0 1953792 linear /dev/nvme0n1 240789505" | dmsetup create test1
+echo "0 1953792 linear /dev/nvme0n1 242743296" | dmsetup create test2
+echo "0 234371072 linear /dev/nvme0n1 244697088" | dmsetup create test3
+echo "0 4098032 linear /dev/nvme0n1 479068160" | dmsetup create test4
+ntfs_device_testdisk_io_ioctl() unimplemented
+
+
+dir_partition inode=5
+     MS Data                242743296  244697087    1953792
+     NTFS, blocksize=4096, 1000 MB / 954 MiB
+Directory /
+       5 dr-xr-xr-x     0      0         0 25-Oct-2024 15:04 .
+       5 dr-xr-xr-x     0      0         0 25-Oct-2024 15:04 ..
+      36 dr-xr-xr-x     0      0         0 25-Oct-2024 09:03 Recovery
+      41 dr-xr-xr-x     0      0         0 12-Sep-2024 08:14 System Volume Information
+      46 -r--r--r--     0      0         0 13-Nov-2024 23:15 $WINRE_BACKUP_PARTITION.MARKER
+
+interface_write()
+ 1 P EFI System                  2048     206847     204800 [EFI System Partition] [NO NAME]
+ 2 P Linux filesys. data    244697088  479068159  234371072
+ 3 P Linux Swap             479068160  483166191    4098032
+simulate write!
+
+TestDisk exited normally.
