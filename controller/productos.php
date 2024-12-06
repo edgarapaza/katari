@@ -2,14 +2,18 @@
 
 class Productos extends Controller
 {
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
-	function __construct()
-	{
-		parent::__construct();
-	}
+    public function insertar()
+    {
+        echo "function insertar";
+    }
 
-	function render()
-	{
-		$this->view->Render('productos/index');
-	}
+    public function render()
+    {
+        $this->view->Render('productos/index');
+    }
 }

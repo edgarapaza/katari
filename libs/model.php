@@ -2,10 +2,11 @@
 
 class Model
 {
+    private $_conn;
 
-  function __construct()
-  {
-    #echo "<h1>Model Base</h1>";
-    $this->conn = new Conexion();
-  }
+    public function __construct()
+    {
+        //echo "<h1>Model Base</h1>";
+        $this->_conn = new Conexion();
+    }
 }

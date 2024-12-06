@@ -1,6 +1,6 @@
 <?php
 
-define('URL', 'http://localhost/');
+define('URL', 'http://127.0.0.1/');
 
 define('COMPANY', 'Katari A&C');
 define('HOST', 'localhost');

@@ -1,4 +1,4 @@
-<?php require('views/header.php'); ?>
+<?php require 'views/header.php'; ?>
 
 <div class="grid-container">
     <div class="row text-center">
@@ -72,4 +72,4 @@
     </div>
 </div>
 
-<?php require('views/footer.php'); ?>
+<?php require 'views/footer.php'; ?>

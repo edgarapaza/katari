@@ -1,4 +1,4 @@
-<?php require('views/header.php'); ?>
+<?php require 'views/header.php'; ?>
 
 <br>
 <div class="grid-container">
@@ -58,4 +58,4 @@
 
 
 
-<?php require('views/footer.php'); ?>
+<?php require 'views/footer.php'; ?>

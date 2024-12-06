@@ -2,16 +2,16 @@
 
 class View
 {
-  public $mensaje;
-  public $datos;
+    public $mensaje;
+    public $datos;
 
-  function __construct()
-  {
-    #echo "<h1>View Base</h1>";
-  }
+    public function __construct()
+    {
+        //echo "<h1>View Base</h1>";
+    }
 
-  function Render($nombre)
-  {
-    require 'views/' . $nombre . '.php';
-  }
+    public function Render($nombre)
+    {
+        include 'views/' . $nombre . '.php';
+    }
 }

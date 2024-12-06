@@ -4,14 +4,10 @@
     <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/contacto.css">
     <div class="tie large text-center">
       <h1>CONTÁCTANOS</h1>
-      <img src="<?php echo constant('URL'); ?>public/img/callcenter.jpg" alt="Una imagen">
+      <img src="<?php echo constant('URL'); ?>public/img/callcenter1.jpg" alt="Contactos"/>
     </div>
     <br>
 
-<div class="large text-center">
-  <h1>CONTÁCTANOS</h1>
-  <img src="<?php echo constant('URL')?>puBlic/img/img-9.png" alt="Una imagen">
-</div>
 <br>
 
 <div class="grid-x">
@@ -50,13 +46,13 @@
           <th>Direccion:</th>
           <td>
             <span class="icon-location"></span>
-            ******* ******* ******** ** *
+              Pasaje Manuel A. Segura 144 - Barrio Miraflores - Puno
           </td>
         <tr>
           <th>Telefono:</th>
           <td>
             <span class="icon-phone"></span>
-            (051) 600 - 465
+            +(051) 935 017 466
           </td>
         </tr>
         <tr>
@@ -64,7 +60,7 @@
           <td>
             <p>
             <span class="icon-mail"></span>
-            edgarapaza@katari.org.pe
+            edgarapaza@katari.pe | edgarapazac@gmail.com
             </p>
           </td>
         </tr>
@@ -73,10 +69,8 @@
   </div>
   <hr>
 </div>
-<<<<<<< HEAD
-<?php require('views/footer.php'); ?>
-=======
-<br>
+
+  <br>
 <div class="row text-center">
     <h4>Horario de atencion</h4>
     <h6>Horario corrido de 8:00 a.m - 4:00 p.m de lunes a viernes</h6>
@@ -89,5 +83,4 @@
 
 </div>
 <br>
-<?php require ('views/footer.php');?>
->>>>>>> 5c20f4df58ef6b6e93e4cc867341badc9e5efdb1
+<?php require('views/footer.php');?>

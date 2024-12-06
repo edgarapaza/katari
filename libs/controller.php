@@ -2,25 +2,25 @@
 
 class Controller
 {
-  public $view;
-  public $model;
+    public $view;
+    public $model;
 
-  function __construct()
-  {
-    #echo "<h1>Controlador Base</h1>";
-    $this->view = new View();
-  }
-
-  function loadModel($model)
-  {
-    $url = 'models/' . $model . "model.php";
-
-    if (file_exists($url)) {
-
-      require $url;
-
-      $modelName = $model . 'Model';
-      $this->model = new $modelName();
+    public function __construct()
+    {
+        //echo "<h1>Controlador Base</h1>";
+        $this->view = new View();
     }
-  }
+
+    public function loadModel($model)
+    {
+        $url = 'models/' . $model . "model.php";
+
+        if (file_exists($url)) {
+
+            include $url;
+
+            $modelName = $model . 'Model';
+            $this->model = new $modelName();
+        }
+    }
 }
