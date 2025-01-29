@@ -1,0 +1,13 @@
+.modal-informe {
+    width: 50%;
+    position: fixed;
+    top: 20%;
+    right: 25rem;
+  }
+
+  #descripcion {
+    height: 150px; /* Altura deseada */
+    width: 100%; /* Ancho completo */
+    resize: none; /* Evita que el usuario pueda redimensionar */
+  }
+  

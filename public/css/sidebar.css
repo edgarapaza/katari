@@ -1,0 +1,105 @@
+:root {
+  --background-color: #f1f4fa;
+  --primary-color: #090e14;
+  --gray: #445569;
+  --blue: #263950;
+  --text: white;
+  --sidebar-gray: #111926;
+  --sidebar-gray-light: #d8dce0;
+  --sidebar-gray-background: #373e4a;
+  --sidebar-gray-active: #2b313a;
+  --sidebar-gray-hover: #2b313a;
+  --success: #00c896;
+}
+body {
+  background-color: var(--background-color);
+  font-family: "Abel", sans-serif;
+}
+.sidebar-z {
+  z-index: 100;
+  width: 280px;
+  background-color: var(--sidebar-gray);
+}
+
+.nav-z ul li a {
+  margin: 6px 0px;
+  padding: 10px;
+  color: var(--sidebar-gray-light);
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  height: 56px;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+.nav-z ul li a:hover {
+  width: 100%;
+  text-decoration: none;
+  background-color: var(--sidebar-gray-background);
+  transition: all 100ms ease-in;
+  border-radius: 10px;
+  color: var(--sidebar-gray-light);
+}
+.nav-z ul li a .fas {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+/*HEADER BASIC */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: none;
+  color: #1a3478;
+  font-size: 1.5rem;
+  border-bottom: #1a2684 solid 1px;
+}
+
+/* Estilos del buscador */
+.search-box {
+  position: relative;
+  display: flex;
+}
+
+.search-box input[type="text"] {
+  border: none;
+  border-bottom: 2px solid #312380;
+  background-color: transparent;
+  color: #6b5cef;
+  padding: 5px;
+  margin-left: 200px;
+  width: 400px;
+  outline: none;
+}
+
+.search-box button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: transparent;
+  border: none;
+  color: #4555c0;
+  cursor: pointer;
+}
+
+/* Estilos del usuario */
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info span {
+  margin-right: 10px;
+}
+
+.user-info a {
+  color: #1a2684;
+  text-decoration: none;
+}
+
+/* HEADER BASIC END */

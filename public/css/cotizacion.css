@@ -1,0 +1,45 @@
+/* Estilo para el textarea */
+#miTextarea {
+  height: 100px; /* Altura deseada */
+  width: 100%; /* Ancho completo */
+  resize: none; /* Evita que el usuario pueda redimensionar */
+}
+#miTextareaCalc {
+  height: 100px; /* Altura deseada */
+  width: 100%; /* Ancho completo */
+  resize: none; /* Evita que el usuario pueda redimensionar */
+}
+
+.contenido {
+  display: none;
+}
+.natural .cell {
+  display: flex;
+  /* position: absolute; */
+}
+.labeles {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+.juridica .cell {
+  display: flex;
+  /* position: absolute; */
+}
+.modal {
+  width: 70%;
+  position: fixed;
+  top: 20%;
+  right: 9rem;
+}
+.modal-form {
+  width: 70%;
+  position: fixed;
+  top: 20%;
+  right: 9rem;
+}
+.modal-software {
+  width: 70%;
+  position: fixed;
+  top: 1rem;
+  right: 9rem;
+}

@@ -3,8 +3,8 @@
     <!-- codigo en HTML aqui -->
     <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/contacto.css">
     <div class="tie large text-center">
-      <h1>CONTÁCTANOS</h1>
-      <img src="<?php echo constant('URL'); ?>public/img/callcenter1.jpg" alt="Contactos"/>
+      <h3>CONTÁCTANOS</h3>
+      <h5>Si Ud desea una cotización, hacer preguntas o dejar comentarios, hablar con nosotros, o quiere colaborar en esta iniciativa, por favor escribanos y le responderemos lo mas pronto posible. Gracias</h5>
     </div>
     <br>
 

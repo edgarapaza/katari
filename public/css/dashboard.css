@@ -1,0 +1,15 @@
+*{
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.right-site{
+    border: 2px solid navy;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 10px;
+}

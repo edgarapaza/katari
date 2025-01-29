@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  /*border: 1px solid $verde;*/ }
+   }
 
 body {
   font-family: 'Oswald', sans-serif;
@@ -109,10 +109,10 @@ body {
   .card .card-servicios {
     border: 1px solid #141E46;
     height: 110px;
-    width: 80%;
+    width: 90%;
     position: relative;
-    top: -100px;
-    left: 40px;
+    top: -50px;
+    left: 20px;
     background: white; }
     .card .card-servicios :hover {
       transform: scale(1.1); }
@@ -158,99 +158,10 @@ body {
     color: white;
     font-size: 0.9em; }
 
-/*  sliders*/
-.slider {
-  position: relative;
-  overflow: hidden;
-  height: 100vh;
-  width: 100vw; }
-
-.slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out; }
-
-.slide.current {
-  opacity: 1; }
-
-.slide .content {
-  position: absolute;
-  bottom: 200px;
-  left: -550px;
-  opacity: 0;
-  width: 1200px;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #333;
-  padding: 30px; }
-
-.slide .content h3 {
-  margin-bottom: 10px; }
-
-.slide.current .content {
-  opacity: 1;
-  transform: translateX(600px);
-  transition: all 0.7s ease-in-out 0.3s; }
-
-.buttons button#prev {
-  position: absolute;
-  top: 50%;
-  left: 15px; }
-
-.buttons button#next {
-  position: absolute;
-  top: 50%;
-  right: 15px; }
-
-.buttons button {
-  border: 2px solid #fff;
-  background-color: transparent;
-  color: #fff;
-  cursor: pointer;
-  padding: 13px 15px;
-  border-radius: 50%;
-  outline: none; }
-
-.buttons button:hover {
-  background-color: #fff;
-  color: #333; }
-
-/* background images */
-.slide:first-child {
-  background: url("http://localhost/katari/public/img/archivo.png") no-repeat center center/cover; }
-
-.slide:nth-child(2) {
-  background: url("http://localhost/katari/public/img/ensamblaje.png") no-repeat center top/cover; }
-
-.slide:nth-child(3) {
-  background: url("http://localhost/katari/public/img/Estadisticas.png") no-repeat center top/cover; }
-
-.slide:nth-child(4) {
-  background: url("http://localhost/katari/public/img/img04.jpg") no-repeat center top/cover; }
-
-.slide:nth-child(5) {
-  background: url("http://localhost/katari/public/img/img05.jpg") no-repeat center top/cover; }
-
 .separacion {
   border-bottom: 1px solid #474747;
   margin-bottom: 30px; }
 
-/* add media queries  */
-@media (max-width: 450px) {
-  .slide .content {
-    bottom: -300px;
-    left: 0;
-    width: 100%; }
-
-  .slide.current .content {
-    transform: translateY(-300px);
-  }
-}
-
-/*# sourceMappingURL=main.css.map */
 
 
 /* jhojan estilos */

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Katari | Welcome</title>
+  <title>E-Stat | Welcome</title>
 
   <!-- <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"> -->
   <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/foundation.css">

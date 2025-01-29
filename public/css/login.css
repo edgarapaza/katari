@@ -1,0 +1,50 @@
+*{
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html{
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex; /* Usa flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex; /* Usa flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+.formulario-z{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto-form{
+    font-size: 1.5rem
+}
+.login{
+    width: 40vh;
+    height: 30vh;
+}
+.info-z{
+    background: linear-gradient(to right, #f0f4ff, #cedef8);
+}

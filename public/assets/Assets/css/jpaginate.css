@@ -1,0 +1,119 @@
+.pagination {list-style:none; margin:0px; padding:0px;}
+.pagination li{float:left; margin:3px;}
+.pagination li a{   display:block; padding:3px 5px; color:#fff; background-color:#44b0dd; text-decoration:none;}
+.pagination li a:hover{   display:block; padding:3px 5px; color:#fff; background-color:#36df36; text-decoration:none; font-size: larger;}
+.pagination li a.active {border:1px solid #000; color:#000; background-color:#fff;}
+.pagination li a.inactive {background-color:#eee; color:#777; border:1px solid #ccc;}
+
+/**===================================================================================================**/
+
+.paginationred {list-style:none; margin:0px; padding:0px;}
+.paginationred li{float:left; margin:3px;}
+
+.paginationred li a{   
+    padding: 8px 10px 7px 10px;
+    margin: 5px 2px;
+    color: #FFF;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*background-color: #B60016;*/
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(230, 21, 21)), color-stop(100%, rgb(90, 5, 19)));
+    background-image: -webkit-linear-gradient(bottom, rgb(230, 21, 21) 0%, rgb(90, 5, 19) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(230, 21, 21) 0%, rgb(90, 5, 19) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(230, 21, 21) 0%, rgb(90, 5, 19) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(230, 21, 21) 0%, rgb(90, 5, 19) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(230, 21, 21) 0%, rgb(90, 5, 19) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(230, 21, 21) 0%, rgb(90, 5, 19) 100%);
+    background-image: linear-gradient(bottom, rgb(230, 21, 21) 0%, rgb(90, 5, 19) 100%);
+	  filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='rgb(230, 21, 21)',EndColorStr='rgb(90, 5, 19)');
+}
+.paginationred li a:hover{   
+    color: #FF5;
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+	-o-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+	-ms-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #713800;
+}
+.paginationred li a.active {border:1px solid #000; color:#000; background-color:#fff;}
+.paginationred li a.inactive {background-color:#eee; color:#777; border:1px solid #ccc;}
+
+
+/**===================================================================================================**/
+
+.paginationorang {list-style:none; margin:0px; padding:0px;}
+.paginationred li{float:left; margin:3px;}
+
+.paginationorang li a{   
+    padding: 8px 10px 7px 10px;
+    margin: 5px 2px;
+    color: #FFF;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*background-color: #B60016;*/
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(252, 153, 54)), color-stop(100%, rgb(160, 81, 8)));
+    background-image: -webkit-linear-gradient(bottom, rgb(252, 153, 54) 0%, rgb(160, 81, 8) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(252, 153, 54) 0%, rgb(160, 81, 8) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(252, 153, 54) 0%, rgb(160, 81, 8)100%);
+    background-image: -moz-linear-gradient(bottom, rgb(252, 153, 54) 0%, rgb(160, 81, 8) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(252, 153, 54) 0%, rgb(160, 81, 8) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(252, 153, 54) 0%, rgb(160, 81, 8) 100%);
+    background-image: linear-gradient(bottom, rgb(252, 153, 54) 0%, rgb(160, 81, 8) 100%);
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='rgb(252, 153, 54)',EndColorStr='rgb(160, 81, 8)');
+}
+.paginationorang li a:hover{   
+    color: #FF5;
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+	-o-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+	-ms-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #713800;
+}
+.paginationorang li a.active {border:1px solid #000; color:#000; background-color:#fff;}
+.paginationorang li a.inactive {background-color:#eee; color:#777; border:1px solid #ccc;}
+
+
+/**===================================================================================================**/
+
+.paginationblue {list-style:none; margin:0px; padding:0px;}
+.paginationblue li{float:left; margin:3px;}
+
+.paginationblue li a{   
+    padding: 8px 10px 7px 10px;
+    margin: 5px 2px;
+    color: #FFF;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*background-color: #B60016;*/
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(62, 29, 252)), color-stop(100%, rgb(18, 3, 59)));
+    background-image: -webkit-linear-gradient(bottom, rgb(62, 29, 252) 0%, rgb(18, 3, 59) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(62, 29, 252) 0%, rgb(18, 3, 59) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(62, 29, 252) 0%, rgb(18, 3, 59) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(62, 29, 252) 0%, rgb(18, 3, 59) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(62, 29, 252) 0%, rgb(18, 3, 59) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(62, 29, 252) 0%, rgb(18, 3, 59) 100%);
+    background-image: linear-gradient(bottom, rgb(62, 29, 252) 0%, rgb(18, 3, 59) 100%);
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='rgb(62, 29, 252)',EndColorStr='rgb(18, 3, 59)');
+}
+.paginationblue li a:hover{   
+    color: #FF5;
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+	-o-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+	-ms-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #713800;
+}
+.paginationblue li a.active {border:1px solid #000; color:#000; background-color:#fff;}
+.paginationblue li a.inactive {background-color:#eee; color:#777; border:1px solid #ccc;}

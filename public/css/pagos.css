@@ -1,0 +1,14 @@
+.modal {
+  width: 50%;
+  position: fixed;
+  top: 20%;
+  right: 25rem;
+}
+@media (max-width: 768px) {
+  .modal {
+    width: 100%;
+    position: fixed;
+    top: 20%;
+    right: 0;
+  }
+}

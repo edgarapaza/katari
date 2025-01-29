@@ -1,0 +1,13 @@
+#descripcion {
+    height: 200px;
+    resize: none;
+}
+#descripcion-proyecto {
+    height: 80px;
+    resize: none;
+}
+.modal-proyecto{
+    position: fixed;
+    width: 70%;
+    top: 20%;
+}

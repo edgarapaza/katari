@@ -1,0 +1,5 @@
+#miTextareaCalc {
+  height: 120px; /* Altura deseada */
+  width: 100%; /* Ancho completo */
+  resize: none; /* Evita que el usuario pueda redimensionar */
+}

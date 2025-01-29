@@ -11,7 +11,7 @@
   <div class="grid-x">
     <div class="cell small-12 large-12">
       <h3 class="ie"><em>Historia</em></h3>
-      <p>Iniciamos este proyecto con Corporacion Digi Arch Perú el 18 de Mayo del 2016, con solo 2 personas: el Ing. Edgar Apaza Choque y la Prof. Leydi Milagros Apaza Choque, junto con la ayuda de amigos, iniciamos varios proyectos de capacitación y nos centramos en el desarrollo de software y paginas web, aulas virtuales principalmente. En el año 2018 vendemos Digi Arch.</p>
+      <p>Iniciamos este proyecto con Corporacion Digi Arch Perú el 18 de Mayo del 2016, con solo 2 personas: Edgar y Leydi Apaza, iniciamos varios proyectos de capacitación y nos centramos en el desarrollo de software y paginas web, aulas virtuales principalmente. En el año 2018 vendemos Digi Arch.</p>
       <p>Katari A&C inicia sus actividades el 21 de Setiembre del 2020, con una nueva perspectiva y aprendiendo de los errores pasados, comenzamos a seccionar katari en divisiones segun funciones del negocio. Las divisiones las presentamos a continuacion</p>
       <ol>
         <li> <b>KATARI SOFTWARE</b>. - Se encarga de diseñar, desarrollar e implementar software en varios lenguajes de Programación, especialmente en JAVA, .NET y PHP con Javascript. Se estan elaborando Aplicaciones Web con un framework creado por nosotros y otras aplicaciones en Python.</li>
@@ -20,7 +20,8 @@
       </ol>
       <h4 class="k"><em>¿Que significa KATARI?</em></h4>
       <p>Katari es el nombre de una deidad representada como una serpiente alada, con ojos cristalinos, hocico rojizo, cabeza de llama, y una cola de pez. En la época incaica era el <b>tótem de la sabiduría</b>, motivo por el cual en los hijos de las Casas del Saber (Yachay Wasikuna) se colocaba la imagen de dicho ser totémico <a href="https://web.facebook.com/photo/?fbid=170967784474966&set=a.104997164405362" target="_blank">Fuente</a>. Katari es lo mismo que Amaru. Es el nombre de un tótem de la cultura incáica. Simboliza el agua que fluye (agua que corre). Se representaba con una serpiente alada gigante, con cola de pez. <a href="https://www.significadode.org/quechua/katari.htm" target="_blank">Fuente</a></p>
-      <p>En este año 2023, ya cumplimos 07 años (2016-2023) de fuertes desafios y de experiencias enriquecedoras, y 03 (2020 - 2023) años de trabajar con un nuevo modelo, ahora de la mano de un grupo de profesionales brillantes, que han aportado con sus animos mucho dinamismo a Katari Software en particular.</p>
+
+      <p>En este año 2025, ya cumplimos 09 años (2016-2025) de fuertes desafios y de experiencias enriquecedoras, y 05 (2020 - 2025) años de trabajar con un nuevo modelo, ahora de la mano de un grupo de profesionales brillantes, que han aportado con sus animos mucho dinamismo a Katari Software en particular.</p>
     </div>
   </div>
   <div class="grid-x grid-margin-x">
