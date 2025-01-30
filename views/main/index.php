@@ -1,197 +1,115 @@
-<?php require('views/header.php'); ?>
+<!doctype html>
+<html class="no-js" lang="es">
 
-<link rel="stylesheet" href="<?php echo constant('URL');?>public/css/title.css">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Stat | Welcome</title>
 
-  <div class="grid-container">
-    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-    <div class="orbit-wrapper">
-      <div class="orbit-controls">
-        <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-        <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+  <!-- <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"> -->
+  <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/foundation.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="<?php echo constant('URL')?>public/css/header.css">
+  <link rel="stylesheet" href="<?php echo constant('URL')?>public/css/footer.css">
+
+</head>
+
+<body>
+
+<div class="grid-container-fluid">
+
+  <div class="grid-x fondo">
+
+      <div class="cell small-12 medium-6 large-6 ladoA">
+        <div class="imagen">
+          <img src="<?php echo constant('URL');?>public/img/logo1.png" alt="logo">
+
+        </div>
+
       </div>
-      <ul class="orbit-container">
-        <li class="is-active orbit-slide">
-          <figure class="orbit-figure">
-            <img class="orbit-image" src="<?php echo constant('URL');?>public/img/slider1.png" alt="Space">
-            <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
-          </figure>
-        </li>
-        <li class="orbit-slide">
-          <figure class="orbit-figure">
-            <img class="orbit-image" src="<?php echo constant('URL');?>public/img/slider1.png" alt="Space">
-            <figcaption class="orbit-caption">Lets Rocket!</figcaption>
-          </figure>
-        </li>
-        <li class="orbit-slide">
-          <figure class="orbit-figure">
-            <img class="orbit-image" src="<?php echo constant('URL');?>public/img/slider1.png" alt="Space">
-            <figcaption class="orbit-caption">Encapsulating</figcaption>
-          </figure>
-        </li>
-        <li class="orbit-slide">
-          <figure class="orbit-figure">
-            <img class="orbit-image" src="<?php echo constant('URL');?>public/img/slider1.png" alt="Space">
-            <figcaption class="orbit-caption">Outta This World</figcaption>
-          </figure>
-        </li>
-      </ul>
+      <div class="cell small-12 medium-6 large-6 ladoB">
+
+        <nav class="menu">
+          <ul class="">
+            <li><a href="<?php echo constant('URL'); ?>main">Inicio</a></li>
+            <li><a href="<?php echo constant('URL'); ?>catalogo">Software</a></li>
+            <li><a href="<?php echo constant('URL'); ?>productos">Servicios</a></li>
+            <li><a href="<?php echo constant('URL'); ?>blog">Blog</a></li>
+
+            <li class="activate"><a href="<?php echo constant('URL'); ?>contacto">
+                <i class="fa-solid fa-phone"></i>
+                Contacto
+              </a></li>
+              <li><pre>    </pre></li>
+          </ul>
+        </nav>
+
+        <div class="text-header">
+          <h2 class="text-header-title">SOBRE NOSOTROS</h2>
+          <p class="text-header-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum distinctio vero fugit, at rerum consequuntur adipisci ipsum beatae aliquid voluptates esse libero. Voluptas, corporis fuga facere blanditiis. Tempora, quas.</p>
+          <button class="button text-header-button">Leer mas +</button>
+        </div>
+      </div>
+
+  </div>
+
+  <br><br>
+  <div class="grid-x">
+    <div class="cell division">
+      <h2>La vida es muy simple, pero insistimos en hacerla complicada</h2>
     </div>
-  <nav class="orbit-bullets">
-    <button class="is-active" data-slide="0">
-      <span class="show-for-sr">First slide details.</span>
-      <span class="show-for-sr" data-slide-active-label>Current Slide</span>
-    </button>
-    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-    <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-  </nav>
+  </div>
+
+  <br><br>
+  <div class="grid-x">
+
+    <div class="cell analisis">
+      <h2>Analisis Estadistico</h2>
+      <h4>Te ayudamos con Tesis de Pre grado, Post grado o doctarado usando el Software R </h4>
+
+      <button class="button miboton">Contactanos</button>
+      <button class="button miboton warning">FAQ</button>
+    </div>
+  </div>
 </div>
-  </div>
 
-  <br>
-
-  <div class="grid-container">
-    <div class="row text-center">
-      <h1><em>Nuestros servicios</em></h1>
-    </div>
-    <div class="grid-x">
-
-      <div class="cell small-12 medium-6 large-4">
-        <a href="productos#analisis-estadistico" class="activate">
-          <div class="card">
-            <img class="thumbnail" src="<?php echo constant('URL');?>public/img/img1.png" alt="Analisis Estadistico">
-            <div class="card-servicios">
-              <h4>Analisis Estadistico</h4>
-              <p>Analisis Bigdata con Machine Learnign</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="cell small-12 medium-6 large-4">
-        <a href="productos#analisis-estadistico" class="activate">
-          <div class="card">
-            <img class="thumbnail" src="<?php echo constant('URL');?>public/img/img1.png" alt="Analisis Estadistico">
-            <div class="card-servicios">
-              <h4>Machine Learning con R y Python</h4>
-              <p>Analisis Bigdata con Machine Learnign</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="cell small-12 medium-6 large-4">
-        <a href="productos#desarrollo-software" class="activate">
-          <div class="card">
-            <img class="thumbnail" src="<?php echo constant('URL');?>public/img/img1.png" alt="Software">
-            <div class="card-servicios">
-              <h4>Desarrollo de software</h4>
-              <p>Tecnologias: JAVA, C++, PHP, Javascript</p>
-            </div>
-          </div>
-        </a>
-
-      </div>
-
-    </div>
-
-    <div class="grid-x">
-      <div class="cell small-12 medium-6 large-4">
-        <a href="productos#especialista-archivos" class="activate">
-          <div class="card">
-            <img class="thumbnail" src="<?php echo constant('URL');?>public/img/img1.png" alt="Software">
-            <div class="card-servicios">
-              <h4>Especialista en Archivos</h4>
-              <p>Experiencia en la organización de Archivos, Archivo Central</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="cell small-12 medium-6 large-4">
-        <a href="productos#estudio-mercado" class="activate">
-          <div class="card">
-            <img class="thumbnail" src="<?php echo constant('URL');?>public/img/img1.png" alt="Estudio de mercado">
-            <div class="card-servicios">
-              <h4>Estudio de Mercado</h4>
-              <p>Analisis comercial estadistico</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="cell small-12 medium-6 large-4">
-        <div class="cell small-12 medium-6 large-4">
-        <a href="productos#redes-cableado" class="activate">
-          <div class="card">
-            <img class="thumbnail" src="<?php echo constant('URL');?>public/img/img1.png" alt="Cableado de Redes">
-            <div class="card-servicios">
-              <h4>Redes y Cableado estructurado</h4>
-              <p>Mejoras internas de la institución</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      </div>
-    </div>
-  </div>
-  <hr>
-
-  <div class="grid-container">
-    <div class="row text-center">
-      <h2>¿Por qué trabajar con nosotros?</h2>
-    </div>
-
-    <div class="grid-x grid-margin-x">
-      <div class="cell small-12 medium-6 large-4">
-        <div class="card">
-          <!--<img src="<?php echo constant('URL'); ?>public/img/reloj.png">-->
-          <i class="fa-solid nosotros fa-gauge-simple-high"></i>
-          <div class="card-section">
-            <h4>RAPIDO</h4>
-            <p>Nuestra experiencia nos permite culminar proyectos en el tiempo requerido con máxima calidad.</p>
-          </div>
+<div class="grid-container">
+  <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+    <div class="cell">
+      <div class="card">
+        <img src="assets/img/generic/rectangle-1.jpg">
+        <div class="card-section">
+        <h4>This is a row of cards.</h4>
+          <p>This row of cards is embedded in an X-Y Block Grid.</p>
         </div>
       </div>
-      <div class="cell small-12 medium-6 large-4">
-        <div class="card">
-          <!--<img src="<?php echo constant('URL'); ?>public/img/databases.png">-->
-          <i class="fa-solid nosotros fa-comments-dollar"></i>
-          <div class="card-section">
-            <h4>ACCESIBLE</h4>
-            <p>Brindamos precios justos y accesibñes, dependiendo de nuestros planes web. Compara nuestros precios</p>
-          </div>
+    </div>
+    <div class="cell">
+      <div class="card">
+        <img src="assets/img/generic/rectangle-1.jpg">
+        <div class="card-section">
+          <h4>This is a card.</h4>
+          <p>It has an easy to override visual style, and is appropriately subdued.</p>
         </div>
       </div>
-      <div class="cell small-12 medium-6 large-4">
-        <div class="card">
-          <!--<img src="<?php echo constant('URL'); ?>public/img/profesional.png">-->
-          <i class="fa-solid nosotros fa-people-group"></i>
-          <div class="card-section">
-            <h4>PROFESIONALES</h4>
-            <p>Contamos con personal 100% profesional, capacitado y calificado, expertos en Diseño Web, profesionales.</p>
-          </div>
+    </div>
+    <div class="cell">
+      <div class="card">
+        <img src="assets/img/generic/rectangle-1.jpg">
+        <div class="card-section">
+          <h4>This is a card.</h4>
+          <p>It has an easy to override visual style, and is appropriately subdued.</p>
         </div>
       </div>
     </div>
   </div>
-
-  <!--<div class="grid-container">
-    <div class="row text-center">
-      <h1>NUESTRO PORTAFOLIO</h1>
-    </div>
-    <div class="grid-x text-center">
-      <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-      <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-      <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-      <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-    </div>
-    <div class="grid-x text-center">
-      <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-      <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-      <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-      <div class="cell small-12 medium-6 large-3"><img class="thumbnail" src="https://placehold.it/350x350"></div>
-    </div>
-  </div>-->
-
+</div>
 
 
 <?php require('views/footer.php'); ?>

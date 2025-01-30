@@ -32,7 +32,6 @@
     </div>
     <nav>
       <ul>
-
         <li><a href="<?php echo constant('URL'); ?>main">Inicio</a></li>
         <li><a href="<?php echo constant('URL'); ?>catalogo">Software</a></li>
         <li><a href="<?php echo constant('URL'); ?>productos">Productos y Servicios</a></li>

@@ -1,0 +1,41 @@
+$negro: #2F2F2F;
+$marron: #A26A6A;
+$amarillo-suave: #FFFFC7;
+$blanco: #FAFAFA;
+
+.footer{
+	background-color: $negro;
+	.titulo-footer
+	{
+		h3{
+			padding: 10px;
+			font-size: 1.5em;
+			color: $marron;
+		}
+		ul{
+			li{
+				list-style: none;
+				.foot{
+					color: $amarillo-suave;
+					font-size: 1em;
+					opacity: 0.6;
+				}
+				:hover{
+					border-bottom: 4px solid red;
+					opacity: 100;
+					transition: opacity 0.4s ease-in-out;
+				}
+			}
+		}
+		.rss{
+			font-size: 2em;
+			padding: 10px;
+			text-align: center;
+			color: $blanco;
+		}
+		.copyright{
+			color: white;
+			font-size: 0.9em;
+		}
+	}
+}
