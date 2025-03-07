@@ -1,5 +1,4 @@
 <?php
-
 class BlogModel extends Model
 {
   function __construct()

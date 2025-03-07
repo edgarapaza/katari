@@ -1,8 +1,4 @@
 <?php
-
-/** @param Type var Description
- * **/
-
 class Blog extends Controller
 {
     public function __construct()
@@ -12,7 +8,7 @@ class Blog extends Controller
 
     public function articulo()
     {
-        echo "DEntro del articulo";
+        echo "Dentro del articulo";
         return true;
     }
 

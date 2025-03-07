@@ -17,7 +17,7 @@
         <div class="card-divider">
           E-Stat Software
         </div>
-        <img src="<?php echo constant('URL');?>public/img/img1.png" alt="Preview">
+        <img src="<?php echo constant('URL');?>public/img/a_software.png" alt="Preview">
         <div class="card-section">
           <h3 class="title2">Desarrollo de software</h3>
           <p>
@@ -34,7 +34,7 @@
         <div class="card-divider">
           E-Stat Software
         </div>
-        <img src="<?php echo constant('URL');?>public/img/img1.png" alt="Preview">
+        <img src="<?php echo constant('URL');?>public/img/a_redes.png" alt="Preview">
         <div class="card-section">
           <h3 class="title2">Redes y Cableado estructurado</h3>
           <p>
@@ -53,7 +53,7 @@
         <div class="card-divider">
           E-Stat Estadistica
         </div>
-        <img src="<?php echo constant('URL');?>public/img/img1.png" alt="Preview">
+        <img src="<?php echo constant('URL');?>public/img/a_estadistica.png" alt="Preview">
         <div class="card-section">
           <h3 class="title2">Analisis Estadistico</h3>
           <p>
@@ -76,7 +76,7 @@
         <div class="card-divider">
           E-Stat Documentos
         </div>
-        <img src="<?php echo constant('URL');?>public/img/img1.png" alt="Preview">
+        <img src="<?php echo constant('URL');?>public/img/a_archivos.png" alt="Preview">
         <div class="card-section">
           <h3 class="title2">Especialista en Archivos</h3>
           <p>
@@ -96,7 +96,7 @@
         <div class="card-divider">
           E-Stat Estadistica
         </div>
-        <img src="<?php echo constant('URL');?>public/img/img1.png" alt="Preview">
+        <img src="<?php echo constant('URL');?>public/img/a_mercado.png" alt="Preview">
         <div class="card-section">
           <h3 class="title2">Estudio de Mercado</h3>
           <p>

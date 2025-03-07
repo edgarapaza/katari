@@ -12,6 +12,6 @@ class View
 
     public function Render($nombre)
     {
-        include 'views/' . $nombre . '.php';
+        include_once 'views/' . $nombre . '.php';
     }
 }

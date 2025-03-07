@@ -9,6 +9,7 @@ class Controller
     {
         //echo "<h1>Controlador Base</h1>";
         $this->view = new View();
+        $this->model = new Model();
     }
 
     public function loadModel($model)

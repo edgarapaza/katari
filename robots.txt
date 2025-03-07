@@ -1,4 +1,5 @@
 # Allow crawling of all content
 User-agent: *
-Disallow: /admin/
-Disallow: /ajax/
+Disallow: /config/
+Disallow: /doc/
+Disallow: /libs/

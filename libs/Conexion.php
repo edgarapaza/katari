@@ -1,8 +1,7 @@
 <?php
-
 class Conexion
 {
-    private $_conn;
+    private $link;
 
     public function __construct()
     {
@@ -11,29 +10,27 @@ class Conexion
         $pass = constant('PASSWORD');
         $db   = constant('DB');
 
-        $this->_conn = new mysqli($host, $user, $pass, $db);
+        $this->link = new mysqli($host, $user, $pass, $db);
 
-        if ($this->_conn->_connect_errno) {
-            echo "Error al contenctar a MySQL: (" . $this->_conn->_connect_errno . ") " . $this->_conn->_connect_error;
+        if ($this->link->connect_errno) {
+            echo "Error al contenctar a MySQL: (" . $this->link->connect_errno . ") " . $this->link->connect_error;
             exit();
         }
 
-        //echo $this->_conn->host_info . "KATARI";
-        return $this->_conn;
+        //echo $this->link->host_info . "KATARI";
+        return $this->link;
     }
 
     public function ConsultaSin($sql)
     {
         // Sirve para: INSERT, UPDATE, DELETE
         try {
-            $this->_conn->query($sql);
+            $this->link->query($sql);
             $res = true;
         } catch (Exception $e) {
             echo 'Excepción: ',  $e->getMessage();
             $res = false;
         }
-
-        mysqli_close($this->_conn);
 
         return $res;
     }
@@ -42,21 +39,19 @@ class Conexion
     {
         // Sirve para: SELECT
         try {
-            $result = $this->_conn->query($sql);
+            $result = $this->link->query($sql);
         } catch (Exception $e) {
             echo 'Excepción: ',  $e->getMessage();
         }
 
         return $result;
-        mysqli_close($this->_conn);
-
     }
 
     public function ConsultaArray($sql)
     {
         // Sirve para: SELECT convertido en array
         try {
-            $result = $this->_conn->query($sql);
+            $result = $this->link->query($sql);
         } catch (Exception $e) {
             echo 'Excepción: ',  $e->getMessage();
         }
@@ -64,7 +59,5 @@ class Conexion
         $data = $result->fetch_array(MYSQLI_ASSOC);
 
         return $data;
-        mysqli_close($this->_conn);
-
     }
 }

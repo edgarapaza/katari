@@ -1,6 +1,4 @@
 <?php
-include_once "models/productos.php";
-
 class CatalogoModel extends Model
 {
   function __construct()
@@ -25,20 +23,21 @@ class CatalogoModel extends Model
     while($row = $res->fetch_array(MYSQLI_ASSOC))
     {
     	$prod = new Productos();
-		$prod->idproducto     = $row['idproducto'];
-		$prod->categoria      = $row['categoria'];
-		$prod->imagen         = $row['imagen'];
-		$prod->nombre         = $row['nombre'];
-		$prod->caracteristicas= $row['caracteristicas'];
-		$prod->preciototal    = $row['preciototal'];
-		$prod->porcentaje     = $row['porcentaje'];
-		$prod->preciodsct     = $row['preciodsct'];
-		$prod->ahorro         = $row['ahorro'];
-		$prod->cupon          = $row['cupon'];
-		$prod->cupondsto      = $row['cupondsto'];
+  		$prod->idproducto     = $row['idproducto'];
+  		$prod->categoria      = $row['categoria'];
+  		$prod->imagen         = $row['imagen'];
+  		$prod->nombre         = $row['nombre'];
+  		$prod->caracteristicas= $row['caracteristicas'];
+  		$prod->preciototal    = $row['preciototal'];
+  		$prod->porcentaje     = $row['porcentaje'];
+  		$prod->preciodsct     = $row['preciodsct'];
+  		$prod->ahorro         = $row['ahorro'];
+  		$prod->cupon          = $row['cupon'];
+  		$prod->cupondsto      = $row['cupondsto'];
 
-		array_push($items, $prod);
+  		array_push($items, $prod);
     }
+
     return $items;
   }
 }

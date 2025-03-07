@@ -1,12 +1,12 @@
 {
-  "name": "antares2",
-  "version": "1.0.0",
-  "description": "Software para la Represa Gallito Ciego",
+  "name": "e-stat",
+  "version": "0.0.1",
+  "description": "Web oficial de E-Stat",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jhoana",
+  "author": "Edgar Apaza Choque",
   "license": "MIT",
   "dependencies": {
     "chart.js": "^4.3.0",

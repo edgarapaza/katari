@@ -1,5 +1,4 @@
 <?php
-
 class Productos extends Controller
 {
     public function __construct()

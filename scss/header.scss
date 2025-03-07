@@ -1,40 +1,117 @@
 $verde: #8AAEA8;
 
 * {
+	margin:0;
   box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 body {
-  margin: 0;
-  min-height: 200vh;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  background-color: #F5F5F5;
+  background-color: #F5EDED;
 }
 
-.menu {
-  display: inline-block;
-  padding: 0;
-  font-size: 2em;
-  background: none;
-  border:  none;
-  margin-left: 20px;
+/* Estilos para el HEADER*/
+header{
+	background-color: #0769e9;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
 }
+
+.title{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.title2 {
+	color: #27ADE6;
+	border-bottom: 1px solid #27ADE6;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.title3{
+	color: white;
+  margin-bottom: 10px;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	max-width: 992px;
+	margin: 0 auto;
+	.logo{
+		color: white;
+		width: 18%;
+		img{
+			width: 100%;
+		}
+	}
+}
+
+	.nav-menu{
+		display: flex;
+		list-style: none;
+		left: 100%;
+		transition: left 0.3s;
+	}
+
+	.nav-menu-item{
+		font-size: 18px;
+		margin: 0 10px;
+		line-height: 60px;
+		width: max-content;
+	}
+
+	.nav-menu-link{
+		padding: 8px 12px;
+		border-radius: 3px;
+		&:hover{
+			background-color: #034574;
+		}
+	}
+	.nav-link{
+		color: white;
+		text-decoration: none;
+	}
+
+	.nav-toggle{
+		color: white;
+		background: none;
+		border: none;
+		font-size: 30px;
+		padding: 0px 20px;
+		line-height: 40px;
+		cursor: pointer;
+
+		display: none;
+	}
+
+
+
+/* Los otros CSS para la pagina*/
+
+
 .division {
   display: flex;
-  padding: 60px;
+  padding: 10px;
   background: $verde;
   border: none;
+  border-radius: 10px;
+  margin-top: 0px;
   margin-left: auto;
   justify-content: center;
   text-align: center;
   font-family: "Oswald";
 }
 .fondo{
-	background-image: url("http://localhost/public/img/ny2.png");
+	background-image: url("./public/img/fheader.jpg");
 	background-repeat: no-repeat;
-	background-size: 2500px 900px;
+	background-size: 1500px 500px;
 	width: 100%;
-	height: 900px;
+	height: 500px;
 }
 
 .ladoA{
@@ -49,45 +126,9 @@ body {
 
 .ladoB{
 
-	nav{
-		top: 0;
-		left: 0;
-		width: 100%;
-		padding: 16px 20px 30px 20px;
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-		transition: 0.3s ease-out;
-		color: white;
-		font-size: 1.2em;
-		&.mask {
-			top: 150px;
-			mask-image: linear-gradient(black 70%, transparent);
-			-webkit-mask-image: linear-gradient(black 70%, transparent);
-		}
-
-	}
-	ul{
-		list-style-type: none;
-	  	margin: 0;
-	  	padding: 0;
-	  	li{
-	  		display: inline-block;
-	  		padding-left: 20px;
-	  			:hover{
-	  				color: #FFE800;
-	  				border-bottom: 1px solid red;
-	  			}
-	  		a{
-	  			color: white;
-	  		}
-	  	}
-	}
-
-
 	.text-header{
-		margin-top: 200px;
-		padding: 20px;
+		margin-top: 150px;
+		padding: 0px 20px;
 		.text-header-title{
 			font-family: "Roboto", sans-serif;
 			font-size: 3em;
@@ -95,6 +136,7 @@ body {
 			color: white;
 		}
 		.text-header-p{
+			font-family: "Oswald", sans-serif;
 			font-size: 1.2em;
 			font-weight: bold;
 			color: white;
@@ -118,4 +160,89 @@ body {
 
 .analisis{
 	text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+	body{
+		padding: 20px;
+	}
+	.fondo{
+		background-image: url("./public/img/fheader.jpg");
+		background-repeat: no-repeat;
+		width: 100%;
+	}
+	.header{
+		height: 60px;
+	}
+	.ladoA{
+		display:none;
+	}
+	.text-header{
+		margin-top: 50px;
+	}
+	.title2 {
+		font-size: 2em;
+	}
+
+	.fondo{
+		height: 10%;
+	}
+
+.nav{
+	.logo{
+		width: 15%;
+		img{
+			width: 200%;
+		}
+	}
+}
+
+		.nav-menu{
+			flex-direction: column;
+			align-items: center;
+			margin-right: 20px;
+			background-color: #2c3e50;
+			position: fixed;
+			left: 0;
+			top: 60px;
+			width: 100%;
+			padding: 20px 0;
+
+			height: calc(100% - 60px);
+			overflow-y: auto;
+
+			left: 100%;
+			transition: left 0.3s;
+		}
+
+		.nav-menu-item{
+			line-height: 60px;
+		}
+
+		.nav-menu-link{
+			&:hover{
+				background: none;
+				color: #83c5f7;
+			}
+		}
+
+		.nav-menu-link_active{
+				background: none;
+				color: #83c5f7;
+		}
+
+		.nav-toggle{
+			display: block;
+		}
+
+	.nav-menu_visible{
+		left: 0;
+	}
+
+	.imagen{
+		height: 50px;
+	}
+
 }

@@ -1,2 +1,2 @@
 # katari
-Pagina para la empresa KATARI A&C web oficial.
+Pagina para la empresa E-STAD web oficial.

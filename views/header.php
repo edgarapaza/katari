@@ -3,45 +3,46 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>E-Stat | Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Stat | Welcome</title>
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css" crossorigin="anonymous">
 
-  <!-- <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"> -->
-  <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/foundation.css">
-  <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/main.css">
-  <!-- If you are using the gem version, you need this only -->
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- Insert this within your head tag and after foundation.css -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;400&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!--   <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"> -->
+    <link rel="stylesheet" href="<?php echo constant('URL')?>public/css/header.css">
+    <link rel="stylesheet" href="<?php echo constant('URL')?>public/css/footer.css">
+    <script defer src="<?php echo constant('URL')?>public/js/index.js"></script>
 </head>
 
 <body>
 
-  <div class="header">
-    <div>
-      <a href="<?php echo constant('URL'); ?>main">
-        <img src="<?php echo constant('URL'); ?>public/img/katari.png" alt="Logo Katari" class="img-logo">
-      </a>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="<?php echo constant('URL'); ?>main">Inicio</a></li>
-        <li><a href="<?php echo constant('URL'); ?>catalogo">Software</a></li>
-        <li><a href="<?php echo constant('URL'); ?>productos">Productos y Servicios</a></li>
-        <li><a href="<?php echo constant('URL'); ?>blog">Blog</a></li>
-        <li><a href="<?php echo constant('URL'); ?>empresa">Empresa</a></li>
-        <li class="activate"><a href="<?php echo constant('URL'); ?>contacto">
-            <i class="fa-solid fa-phone"></i>
-            Contacto
-          </a></li>
-      </ul>
-    </nav>
+  <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">
+                <img src="<?php echo constant('URL')?>public/img/logo1.png" alt="Logo">
+            </a>
+            <button class="nav-toggle" area-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu nav-menu_visible">
+                <li class="nav-menu-item"><a href="<?php echo constant('URL'); ?>main" class="nav-menu-link nav-link">Inicio</a></li>
+                <li class="nav-menu-item"><a href="<?php echo constant('URL'); ?>catalogo" class="nav-menu-link nav-link">Software</a></li>
+                <li class="nav-menu-item"><a href="<?php echo constant('URL'); ?>productos"class="nav-menu-link nav-link">Servicios</a></li>
+                <li class="nav-menu-item"><a href="<?php echo constant('URL'); ?>blog" class="nav-menu-link nav-link">Blog</a></li>
 
-  </div>
+                <li class="nav-menu-item"><a href="<?php echo constant('URL'); ?>contacto" class="nav-menu-link nav-link">
+                    <i class="fa-solid fa-phone"></i>
+                    Contacto
+                  </a></li>
+
+            </ul>
+      </nav>
+    </header>
+    <br><br>

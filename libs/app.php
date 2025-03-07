@@ -1,13 +1,11 @@
 <?php
-
 session_start();
 
 class App
 {
-    public function __construct()
+    function __construct()
     {
         //echo "<p>Nueva APP</p>";
-
         $url = isset($_GET['url']) ? $_GET['url'] : null;
         $url = rtrim($url, '/');
         $url = explode('/', $url);
@@ -22,6 +20,7 @@ class App
             return false;
         }
 
+
         $archivoController = "controller/" . $url[1] . ".php";
 
         if (file_exists($archivoController)) {
@@ -29,20 +28,19 @@ class App
             include_once $archivoController;
             $controller = new $url[1]();
             $controller->loadModel($url[1]);
-            //$controller->render();
+
 
             if (!empty($url[2])) {
                 //echo "Metodo".$url[2];
-                $controller->{$url[2]}();
 
                 $nparam = sizeof($url);
 
-                if ($nparam > 3) {
+                if ($nparam > 2) {
                     $param = [];
-                    for ($i = 3; $i < $nparam; $i++) {
+                    for ($i = 2; $i < $nparam; $i++) {
                         array_push($param, $url[$i]);
                     }
-                    $controller->{$url[2]}($param);
+                    $controller->{$url[2]}($param[0]);
                 } else {
                     //echo "no hay parametros";
                     $controller->{$url[2]}();
