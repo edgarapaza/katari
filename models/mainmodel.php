@@ -6,11 +6,15 @@ class MainModel extends Model
     parent::__construct();
   }
 
-  function Visitas($fecha, $hora, $ip)
+  function nuevo()
   {
-  	echo "aqui";
-  	$sql = "INSERT INTO visitas (fecha, hora, ip) VALUES ('$fecha', '$hora', '$ip')";
-  	echo $sql;
-  	//$res = $this->conn->ConsultaSin($sql);
+    echo "dentro de nuevo";
+  }
+
+  public function Visitas($fecha, $hora, $ip)
+  {
+  	$sql = "INSERT INTO visitas VALUES (NULL, '$fecha', '$hora', '$ip')";
+
+  	$this->conn->ConsultaSin($sql);
   }
 }

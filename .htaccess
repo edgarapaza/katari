@@ -1,4 +1,11 @@
-http://localhost/controlador/metodo/parametro
-http://localhost/index.php?controlador=controlador&metodo=metodo&parametro=parametro
+RewriteEngine On
 
-rewrite ^/([a-z]+)/([a-z0-9]+)/([1-9][0-9]*)$ /index.php?controlador=$1&metodo=$2&parametro=$3;
+# Options +FollowSymlinks
+
+Options All -Indexes
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?url=$1 [L,QSA]

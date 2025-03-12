@@ -1,21 +1,25 @@
-<?php require 'views/header.php'; ?>
+<?php
+require 'views/header.php';
+$post = $this->datos;
+
+?>
 
 <div class="grid-container">
     <div class="row text-center">
-        <h2>BLOG</h2>
+        <h2>Blog</h2>
         <hr>
     </div>
     <div class="grid-x">
         <div class="cell small-12 medium-6 large-8">
             <div class="row text-center">
-                <h2><?php echo $this->datos['titulo']; ?></h2>
+                <h2><?php echo $post['titulo']; ?></h2>
             </div>
-            <img class="thumbnail" src="<?php echo $this->datos['imagen']; ?>">
+            <img class="thumbnail" src="<?php echo $post['imagen']; ?>">
             <div class="row text-center">
-                <em><?php echo $this->datos['descripcion']; ?></em>
+                <em><?php echo $post['descripcion']; ?></em>
             </div>
 
-            <div><?php echo $this->datos['contenido']; ?></div>
+            <div><?php echo $post['contenido']; ?></div>
 
             <div class="callout">
                 <ul class="menu simple">

@@ -89,7 +89,7 @@ header {
   font-family: "Oswald"; }
 
 .fondo {
-  background-image: url("http://192.168.7.12/public/img/fheader.jpg");
+  background-image: url("../../public/img/fheader.jpg");
   background-repeat: no-repeat;
   background-size: 1500px 500px;
   width: 100%;
@@ -137,7 +137,7 @@ header {
     padding-top: 80px; }
 
   .fondo {
-    background-image: url("http://192.168.7.12/public/img/fheader.jpg");
+    background-image: url("../../public/img/fheader.jpg");
     background-repeat: no-repeat;
     width: 100%; }
 

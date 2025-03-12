@@ -14,6 +14,8 @@ class Blog extends Controller
 
     public function render()
     {
+        $post = $this->model->post1();
+        $this->view->datos = $post;
         $this->view->Render('blog/index');
     }
 
