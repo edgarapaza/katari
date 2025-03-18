@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="<?php echo constant('URL')?>public/css/header.css">
     <link rel="stylesheet" href="<?php echo constant('URL')?>public/css/footer.css">
+    <script defer src="<?php echo constant('URL')?>public/js/index.js"></script>
 </head>
 
 <body>
